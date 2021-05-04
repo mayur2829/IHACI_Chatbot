@@ -1,0 +1,1015 @@
+{"intents":[
+	    {"tag": "greeting",
+     	 "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","Hi there", "How are you"],
+     	 "responses": ["Hello my name is IHACI, how may I help you?", "Good to see you again", "Hi there, how can I help?"],
+     	 "context": [""]
+    	},
+    	{"tag": "thanks",
+     	 "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Awesome, thanks", "Thanks for helping me"],
+     	 "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"],
+         "context": [""]
+    	},
+	    {"tag": "about",
+     	 "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+         "responses": ["I'm IHACI, your bot assistant for Covid 19 related information", "I'm IHACI, an Artificial Intelligent bot Covid 19 related information"],
+	     "context": [""]
+    	},
+    	{"tag": "name",
+    	 "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    	 "responses": ["You can call me IHACI.", "I'm IHACI!", "Just call me as IHACI"],
+    	 "context": [""]
+	    },
+    	{"tag": "meaning",
+    	 "patterns": ["what is meaning of IHACI", "what is fullform of IHACI"],
+     	 "responses": ["IHACI stands for I HAVE ALL COVID INFO"],
+         "context": [""]
+	    },
+	    {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Can you please explain more"],
+         "context": [""]
+        },
+    	{"tag": "help",
+    	 "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    	 "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"],
+	     "context": [""]
+    	},
+	    {"tag": "options",
+         "patterns": ["How you could help me", "What you can do", "What help you provide", "How you can be helpful", "Help me","What support is offered"],
+         "responses": ["I can clear your queries realted to COVID 19.", "I can answer to your quaries related to corona virus"],
+         "context": [""]
+        },
+	    {"tag": "Question",
+         "patterns": ["What is Coronavirus?","Novel coronavirus", "what is COVID-19","Explain corona virus", "Tell me about covid", "tell me about corona virus"],
+         "responses": ["Coronaviruses or COVID-19 is a large family of viruses which may cause illness in animals or humans.The most recently discovered coronavirus causes coronavirus disease COVID-19.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19?"],
+         "context": [""]
+        },
+    	{"tag": "symptoms",
+    	 "patterns": ["What are the symptoms of COVID-19?","Symptoms of COVID-19","symptoms","covid-19 symptons", "coronavirus symptoms"],
+    	 "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea.These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+	     "context": [""]
+    	},
+    	{"tag": "spread",
+    	 "patterns": ["How does COVID-19 spread","coronavirus spread","spread"],
+    	 "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales.The disease can spread from person to person, People can catch corona virus from others who have the virus, through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings"],
+	     "context": [""]
+    	},
+    	{"tag": "air",
+    	 "patterns": ["Can the virus transmit through air", "Is it a air transmitted virus","Does virus spread through air","air spread"],
+    	 "responses": ["Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather thanthrough the air."],
+         "context": [""]
+	    },
+    	{"tag": "nosymptoms",
+    	 "patterns": ["Can CoVID-19 be caught from a person who has no symptoms","can virus spread through person with no symptoms"],
+     	 "responses": ["The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low."],
+    	 "context": [""]
+	    },
+    	{"tag": "protection",
+         "patterns": ["How do i protect myself from the spread and prevent the spread of COVID-19","prevent spread of corona","protection","how to protect","how to avoid corona virus", "stay safe from corona virus"],
+         "responses": ["Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:1.Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.3.Avoid touching eyes, nose and mouth.4. Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.5. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.This will also protect you and help prevent spread of viruses and other infections.Avoid traveling to places where possible spread of COVID-19 and other viruses."],
+         "context": [""]
+        },
+	    {"tag": "visitplace",
+         "patterns": ["i visit a place","i travelled a place with corona cases area","corona area","how to protect visiting corona area"],
+         "responses": ["Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading 1. Follow the guidance outlined above (Protection measures for everyone) 2. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.   Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.   If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.This will also help to preventossible spread of COVID-19 and other viruses."],
+         "context": [""]
+        },
+        {"tag": "likely",
+         "patterns": ["how likely am i to catch COVID-19","likely to catch"],
+         "responses": ["The risk depends on where you  are - and more specifically, whether there is a COVID-19 outbreak unfolding there.For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19.COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly."],
+         "context": [""]
+        },
+    	{"tag": "contacted",
+    	 "patterns": ["Protection measures for person contacted recently visited Covid area"],
+    	 "responses": ["Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers."],
+    	 "context": [""]
+	    },
+        {"tag": "worry",
+         "patterns": ["Should I worry about COVID-19?","Is there anything to worry about virus"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.."],
+         "context": [""]
+        },
+        {"tag": "risk",
+         "patterns": ["Who is at risk of developing severe illness?","Is there any risk in illness or fever"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others"],
+         "context": [""]
+        },
+        {"tag": "antibiotics",
+         "patterns": ["Are antibiotics effective in preventing or treating the COVID-19"],
+         "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work"],
+         "context": [""]
+        },
+        {"tag": "SARS",
+         "patterns": ["Is COVID-19 the same as SARS"],
+         "responses": ["No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause arequite different."],
+         "context": [""]
+        },
+        {"tag": "cure",
+         "patterns": ["Are there any medicines or therapies that can cure COVID-19"],
+         "responses": ["While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available."],
+         "context": [""]
+        },
+         {"tag": "vaccine",
+         "patterns": ["Is there a Vaccine, drug or treatment for COVID-19"],
+         "responses": ["Covishield and Covaxin both vaccine are clinical tested and approved by Indian Health Organization.Covishield® vaccine, manufactured by the Serum Institute of India, is a Viral Vector-based Technology which is also used to manufacture Ebola vaccine.Covaxin® vaccine, manufactured by the Bharat Biotech, is a Whole-virion Inactivated Coronavirus Vaccine which is also used to manufacture vaccines like Influenza, Rabies and Hepatitis- A."],
+         "context": [""]
+        },
+        {"tag": "mask",
+         "patterns": ["Should I wear mask to protect myself", "Does mask protect from virus", "Is mask usefull?"],
+         "responses": ["Yes. It is essential to wear a mask while going out or coming in contact with people.Use mask when you are ill with COVID-19 symptoms to avoid spread to others.Disposable face mask can only be used once."],
+         "context": [""]
+        },
+        {"tag": "put on",
+         "patterns": ["how to put on, take off and dispose a mask"],
+         "responses": ["Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough.Before touching the mask, clean hands with an alcohol-based hand rub or soap and water    Take the mask and inspect it for tears or holes.  Orient which side is the top side (where the metal strip is).  Ensure the proper side of the mask faces outwards (the coloured side).   Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose.   Pull down the mask’s bottom so it covers your mouth and your chin.   After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask.  Discard the mask in a closed bin immediately after use.   Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water."],
+         "context": [""]
+        },
+        {"tag": "incubation",
+         "patterns": ["How long is the incubation period for COVID-19?","Within how must time virus infect"],
+         "responses": ["The time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days."],
+         "context": [""]
+        },
+        {"tag": "animal",
+         "patterns": ["Can virus infect through animal source?","Does virus spread through animals?", "Can animal spreas virus","can human become infected with the COVID-19 from an animal source"],
+         "responses": ["Possible animal sources of COVID-19 have not yet been confirmed. To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."],
+         "context": [""]
+        },
+        {"tag": "pet",
+         "patterns": ["Can I catch COVID-19 from my pet?","Does virus spread through pet?"],
+         "responses": ["While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19. COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks"],
+         "context": [""]
+        },
+        {"tag": "surface",
+         "patterns": ["how long does the virus survive on surface"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment).If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."],
+         "context": [""]
+        },
+        {"tag": "package",
+         "patterns": ["Is it safe to receive a package from any area where COVID-19 has been reported?"],
+         "responses": ["Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."],
+         "context": [""]
+        },
+        {"tag": "avoid",
+         "patterns": ["Is there anything I should avoid to bee safe from virus?"],
+         "responses": ["Smoking, Wearing unhygienic masks, Taking any antibiotics"],
+         "context": [""]
+        },
+        {"tag": "smoking",
+        "patterns": ["Does smoking causes Covid-19 virus?","Is smoking dangerous for virus?"],
+        "responses": ["A review of studies by public health experts convened by WHO on 29 April 2020 found that smokers are more likely to develop severe disease with COVID-19, compared to non-smokers.COVID-19 is an infectious disease that primarily attacks the lungs. Smoking impairs lung function making it harder for the body to fight off coronaviruses and other diseases. Tobacco is also a major risk factor for noncommunicable diseases like cardiovascular disease, cancer, respiratory disease and diabetes which put people with these conditions at higher risk for developing severe illness when affected by COVID-19."],
+        "context": [""]
+        },
+        {"tag": "do",
+         "patterns": ["is there anything i should not do"],
+         "responses": ["The following measures ARE NOT effective against COVID-2019 and can be harmful:  Smoking   Wearing multiple masks  Taking antibiotics (See question 10 \"Are there any medicines of therapies that can prevent or cure COVID-19?\")In any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider."],
+         "context": [""]
+        },
+        {"tag": "source",
+         "patterns": ["Is the source of the coronavirus causing COVID-19 known?"],
+         "responses": ["Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown. All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus. SARS-CoV-2 virus most probably has its ecological reservoir in bats. SARS-CoV-2, belongs to a group of genetically related viruses, which also include SARS-CoV and a number of other CoVs isolated from bats populations. MERS-CoV also belongs to this group, but is less closely related."],
+         "context": [""]
+        },
+        {"tag": "occur",
+         "patterns": ["how did the first human SARS-CoV-2 infection occur"],
+         "responses": ["The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2.However, SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans. In a similar way, it is thought that SARS-CoV-2 jumped the species barrier and initially infected humans, but more likely through an intermediate host, that is another animal species more likely to be handled by humans - this could be a domestic animal, a wild animal, or a domesticated wild animal and, as of yet, has not been identified.Until the source of this virus is identified and controlled, there is a risk of reintroduction of the virus in the human population and the risk of new outbreaks like the ones we are currently experiencing"],
+         "context": [""]
+        },
+        {"tag": "airbone",
+         "patterns": ["Is COVID-19 airborne"],
+         "responses": ["The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. You can be infected by breathing in the virus if you are within 1 metre of a person who has COVID-19, or by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands. "],
+         "context": [""]
+        },
+        {"tag": "nosymptom",
+         "patterns": ["Can CoVID-19 be caught from a person who has no symptoms"],
+         "responses": ["The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill. "],
+         "context": [""]
+        },
+        {"tag": "deas",
+         "patterns": ["Can I catch COVID-19 from the feces of someone with the disease"],
+         "responses": ["The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a  main feature of the outbreak. The ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating. "],
+         "context": [""]
+        },
+        {"tag": "protect",
+         "patterns": ["What can I do to protect myself","how to protect","how to protect myself from corona"],
+         "responses": ["Protection measures for everyone Stay aware of the latest information on the COVID-19 outbreak,available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. "],
+         "context": [""]
+        },
+        {"tag": "precautions",
+         "patterns": ["precautions", "reduce chance of getting corona","prevention","how to prevent from covid-19","Protect","protection","how to prevent", "prevent"],
+         "responses": ["1.Regularly and thoroughly clean your hands with an alcoholbased hand rub or wash them with soap and water. 2.Maintain at least 1 metre (3 feet) distance between yourself andanyone who is coughing or sneezing. 3.Avoid touching eyes, nose and mouth. 4.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. "],
+         "context": [""]
+        },
+        {"tag": "worry",
+         "patterns": ["Should I worry about COVID-19","worry","tension"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones. "],
+         "context": [""]
+        },
+        {"tag": "risk",
+         "patterns": ["Who is at risk of developing severe illness","risk"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others. "],
+         "context": [""]
+        },
+        {"tag": "anti",
+         "patterns": ["Are antibiotics effective in preventing treating the COVID-19?","treatment of covid by antibiotics"],
+         "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "],
+         "context": [""]
+        },
+        {"tag": "vacc",
+         "patterns": ["Is there a vaccine drug or treatment for COVID-19", "possible vaccine","vaccine","treatment","medicine"],
+         "responses": ["Covishield and Covaxin both vaccine are clinical tested and approved by Indian Health Organization.Covishield® vaccine, manufactured by the Serum Institute of India, is a Viral Vector-based Technology which is also used to manufacture Ebola vaccine.Covaxin® vaccine, manufactured by the Bharat Biotech, is a Whole-virion Inactivated Coronavirus Vaccine which is also used to manufacture vaccines like Influenza, Rabies and Hepatitis- A."],
+         "context": [""]
+        },
+        {"tag": "sars",
+         "patterns": ["Is COVID-19 the same as SARS","what is sars","sars virus","sars"],
+         "responses": ["The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."],
+         "context": [""]
+        },
+        {"tag": "wear",
+         "patterns": ["when Should I wear mask to protect myself"],
+         "responses": ["Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. We urge people to use masks wisely. "],
+         "context": [""]
+        },
+        {"tag": "whenmask",
+         "patterns": ["who should use mask","who must wear mask","is it necessary to wear mask"],
+         "responses": ["A mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough."],
+         "context": [""]
+        },
+        {"tag": "timeperiod",
+         "patterns": ["How long is the incubation period for COVID-19","how many days it take to show symptoms"],
+         "responses": ["The incubation period means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."],
+         "context": [""]
+        },
+        {"tag": "animals",
+         "patterns": ["Can humans become infected with the COVID-19 from an animal source"],
+         "responses": ["Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed."],
+         "context": [""]
+        },
+        {"tag": "anim",
+         "patterns": ["how protect from animals"],
+         "responses": ["To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products. "],
+         "context": [""]
+        },
+        {"tag": "pet",
+         "patterns": ["Can I catch COVID-19 from my pet?"],
+         "responses": ["While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19."],
+         "context": [""]
+        },
+        {"tag": "surface",
+         "patterns": ["How long does the virus survive on surfaces","life of coronavirus on surface", "virus on surface"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other corona viruses. Studies suggest that corona viruses may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others."],
+         "context": [""]
+        },
+        {"tag": "receive",
+         "patterns": ["safe to receive a package","pack from corona area"],
+         "responses": ["Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. "],
+         "context": [""]
+        },
+        {"tag": "notdo",
+         "patterns": ["Is there anything I should not do"],
+         "responses": ["The following measures ARE NOT effective against COVID-2019 and can be harmful:1.Smoking2.Wearing multiple masks3.Taking antibiotics on your own"],
+         "context": [""]
+        },
+        {"tag": "whycovid",
+         "patterns": ["why disease is called covid19"],
+         "responses": ["In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”."],
+         "context": [""]
+        },
+        {"tag": "stigma",
+         "patterns": ["how can people help to stop stigma related to covid-19"],
+         "responses": ["People can fight stigma by providing social support in situations where you notice this is occurring. Stigma affects the emotional or mental health of stigmatized groups and the communities they live in. Stopping stigma is important to making communities and community members resilient. "],
+         "context": [""]
+        },
+        {"tag": "highbp",
+         "patterns": ["Are people with high blood pressure (hypertension) at higher risk from COVID-19"],
+         "responses": ["At this time, we do not think that people with high blood pressure and no other underlying health conditions are more likely than others to get severely ill from COVID-19. Although many people who have gotten severely ill from COVID-19 have high blood pressure, they are often older or have other medical conditions like obesity, diabetes, and serious heart conditions that place them at higher risk of severe illness from COVID-19"],
+         "context": [""]
+        },
+        {"tag": "source",
+         "patterns": ["what is the source of virus"],
+         "responses": ["COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats.  Rarely, animal coronaviruses can infect people and then spread between people. This occurred with MERS-CoV and SARS-CoV, and now with the virus that causes COVID-19. The SARS-CoV-2 virus is a betacoronavirus, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. "],
+         "context": [""]
+        },
+        {"tag": "quarantine",
+         "patterns": ["can someone who has been quarantine spread illness"],
+         "responses": ["Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease.For COVID-19, the period of quarantine is 14 days from the last date of exposure because the incubation period for this virus is 2 to 14 days. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period."],
+         "context": [""]
+        },
+        {"tag": "food",
+         "patterns": ["can this virus spread from food or food from restaurant"],
+         "responses": ["Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food – additional investigation is needed."],
+         "context": [""]
+        },
+        {"tag": "temp",
+         "patterns": ["Will high temp stop coronavirus","high temprature effect on corona virus","temperature effect on corona virus","heat effect on virus","weather effect on corona virus"],
+         "responses": ["Generally coronaviruses survive for shorter periods at higher temperatures and higher humidity than in cooler or dryer environments. However, we don’t have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point. The necessary temperature would also be based on the materials of the surface, the environment, etc.  There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."],
+         "context": [""]
+        },
+        {"tag": "casesindia",
+         "patterns": ["Total cases in india","corona positive in india","Corona cases india","stats of corona cases india","statistics report india" ,"india statistics"],
+         "responses": ["Please visit https://www.mygov.in/covid-19 or download aarogya setu app for lastest updates and details"],
+         "context": [""]
+        },
+        {"tag": "cases worls",
+         "patterns": ["Total cases in world","corona positive in world","Corona cases world","stats of corona cases world","statistics report world","world statistics"],
+         "responses": ["Please visit https://covid19.who.int/ for live updates"],
+         "context": [""]
+        },
+        {"tag": "caringsomeone",
+         "patterns": ["when caring for someone who is sick"],
+         "responses": ["1.Limit contactCOVID-19 spreads between people who are in close contact (within about 6 feet) through respiratory droplets, created when someone talks, coughs or sneezes.2. Eat in separate rooms or areas3.Avoid sharing personal items like dishes, cups/glasses, towels, bedding, or electronics (like a cell phone) with the person who is sick.4.When to wear a cloth face cover or gloves5.Clean your hands often6.Clean and then disinfect around the house"],
+         "context": [""]
+        },
+        {"tag": "childermask",
+         "patterns": ["should children wear mask?","childern mask"],
+         "responses": ["CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. Cloth face coverings should NOT be put on babies or children younger than 2 because of the danger of suffocation. Children younger than 2 years of age are listed as an exception as well as anyone who has trouble breathing or is unconscious, incapacitated, or otherwise unable to remove the face covering without assistance."],
+         "context": [""]
+        },
+        {"tag": "familystress",
+         "patterns": ["how can my family cope up with stress","family stress of covid19"],
+         "responses": ["Supporting children with special healthcare needs can put additional demands and stress on families, especially during emergency situations. You have likely found ways to manage the stress and challenges unique to your family’s situation. It is important to continue your family’s coping methods, including reaching out to other family members, friends, support groups, and organizations that have been helpful in the past."],
+         "context": [""]
+        },
+        {"tag": "soap",
+         "patterns": ["should i use soap water or hand sanitizer"],
+         "responses": ["Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."],
+         "context": [""]
+        },
+        {"tag": "outbreak",
+         "patterns": ["what should i do if there is an outbreak in our community"],
+         "responses": ["During an outbreak, stay calm and put your preparedness plan to work. Follow the steps below:1.Stay home if you are sick. Keep away from people who are sick. Limit close contact with others as much as possible (about 6 feet).2.Stay informed about the local COVID-19 situation3.Continue practicing everyday preventive actions4.Notify your workplace as soon as possible if your regular work schedule changes5.Stay in touch with others by phone or email"],
+         "context": [""]
+        },
+        {"tag": "communitywork",
+         "patterns": ["should i go to work if there is outbreak in my community"],
+         "responses": ["Follow the advice of your local health officials. Stay home if you can. Talk to your employer to discuss working from home, taking leave if you or someone in your household gets sick with COVID-19 symptoms, or if your child’s school is dismissed temporarily. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak."],
+         "context": [""]
+        },
+        {"tag": "testforcovid",
+         "patterns": ["how can i get tested for covid19","checkup for corona virus"],
+         "responses": ["Two kinds of tests are available for COVID-19: viral tests and antibody tests. A viral test checks for a current infection. An antibody test checks for a previous infection.If you think you need a viral test, call your healthcare provider or state or localexternal icon health department and tell them about your symptoms and how you think you may have been exposed to the virus. Your healthcare provider can let you know if they offer viral tests at their office. Your state or local health department can provide local information on where testing is available. If you want an antibody test, call your healthcare provider to see if they offer antibody tests and whether you should get one. You can also visit your state or local health department’s website for local information on antibody testing."],
+         "context": [""]
+        },
+        {"tag": "laterpositive",
+         "patterns": ["can someone test negative and later test positive on viral test","get again coronavirus"],
+         "responses": ["Yes, it is possible. You may test negative if the sample was collected early in your infection and test positive later during this illness. You could also be exposed to COVID-19 after the test and get infected then. Even if you test negative, you still should take steps to protect yourself and others. "],
+         "context": [""]
+        },
+        {"tag": "againcv",
+         "patterns": ["if i have recovered from covid-19 will i be immune to it","can i get covid-19 again","can i caught covid19 again once recovered"],
+         "responses": ["We do not know yet if people who recover from COVID-19 can get infected again. CDC and partners are investigating to determine if a person can get sick with COVID-19 more than once. Until we know more, continue to take steps to protect yourself and others."],
+         "context": [""]
+        },
+        {"tag": "funeral",
+         "patterns": ["am i at risk if i go to funeral of someone who died covid19","can i attend funeral"],
+         "responses": ["There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19."],
+         "context": [""]
+        },
+        {"tag": "cleaning",
+         "patterns": ["is cleaning effective against covid virus","normal cleaning","cleaning with water effective","how to clean surfaces"],
+         "responses": ["Cleaning does not kill germs, but by removing them, it lowers their numbers and the risk of spreading infection. If a surface may have gotten the virus on it from a person with or suspected to have COVID-19, the surface should be cleaned and disinfected. Disinfecting kills germs on surfaces."],
+         "context": [""]
+        },
+        {"tag": "helplinelist",
+         "patterns": ["helpline numbers", "states helpline numbers","india helpline for corona","on which  number i should call"],
+         "responses": ["=========State and union territory Helpline numbers=====1.Andaman and Nicobar : 03192-232102, 03192-2342872.Andhra Pradesh : 0866-24109783.Arunachal Pradesh : 1044.Assam : 1045.Bihar : 0612-2217681, 0612-2233806, 1046.Chandigarh : 0172-2752038, 0172-2752031, 0172-27040487.Chhattisgarh : 0771-282113, 0771-2446607, 0771-24406088.Dadra and Nagar Haveli : 104, 1077, 0260-2642106, 0260-26303049.Daman and Diu : 104, 1077, 0260-2642106, 0260-263030410.Delhi : 011-2230714511.Goa : 10412.Gujarat : 079-23251900, 079-23251908, 10413.Haryana : 0172-254593814.Himachal Pradesh : 077-2628940, 077-2629439, 10415.Jammu and Kashmir : 0191-2549676, 0191-2520982, 0194-2440283, 0194-2452052, 0194-245731316.Jharkhand : 0651-2282201, 0651-2284185, 0651-223488, 181, 10416.Karnataka : 080-46848600, 1075, 10417.Kerala : 0471-2552056, 0471-2552105618.Ladakh : 01982-256462, 01982-257416, 01982-25896019.Lakshadweep : 104/ 04896-26374220.Maharashtra : 022-2202453521.Manipur : 1800-345-381822.Meghalaya : 108, 0364-2224100, 0364-259062323.Mizoram : 10224.Madhya Pradesh : 104, 1075, 181,0755-2411180,0755-2704201, 0729-2234425.Nagaland : 0370-2291122, 0370-227033826.Odisha : 104, 0674-253417727.Puducherry : 104, 1070, 1077, 0413-225340728.Punjab : 10429.Rajasthan : 0141-2225000, 0141-222562430.Sikkim : 104, 03592-28444431.Tamil Nadu : 0471-2552056, 0471-2552105632.Telengana : 104, 040-2328610033.Tripura : 0381-2315879, 0381-2412424, 0381-241343434.Uttar Pradesh : 0522-223751535.Uttarakhand : 10436.West Bengal : 1800-313-444222, 033-23412600"],
+         "context": [""]
+        },
+        {"tag": "register",
+         "patterns": ["Where should I register for the vaccination?","Vaccine registration","Is there any registration for vaccine"],
+         "responses": ["You can register for vaccine appointment on following link https://www.cowin.gov.in/home"],
+         "context": [""]
+        },
+        {"tag": "spot",
+         "patterns": ["Can i get spot vaccination"],
+         "responses": ["Those who cannot get themselves registered online can contact their local Government health workers, who will help the beneficiaries to the Government CVC for on the spot registration, appointment, verification and vaccination on the same day. Please ask your nearest Governmen health care worker to guide you about the nearest Government CVC where COVID vaccination will be available and the days of the week when this will be available. You need to carry your mobile phone and a photo identification document to get yourself vaccinated. The workers in the Government CVC will help you to register on the spot, get appointment and get vaccinated on the same day."],
+         "context": [""]
+        },
+        {"tag": "document",
+         "patterns": ["What documents are required for registration","Are documnet require for registration"],
+         "responses": ["Any of the below mentioned ID with Photo may be produced at the time of registration:Aadhaar Card, Driving License,Health Insurance Smart Card issued under the scheme of Ministry of Labour,Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) Job Card, Official identity cards issued to MPs/MLAs/MLCs,PAN Card, Passbooks issued by Bank/Post Office,Passport, Pension Document,Service Identity Card issued to employees by Central/ State Govt./ Public Limited Companies,Voter ID,People with comorbidities will have to carry the certificate of comorbidities, in the format shared here by a registered medical practitioner."],
+         "context": [""]
+        },
+        {"tag": "certificate",
+         "patterns": ["Will I get any certificate that I am vaccinated","Vaccine certificate"],
+         "responses": ["Yes, a provisional certificate would be provided after the first dose. On completion of second dose, when you receive the message for completion of schedule it would include a link to download digital certificate of vaccination for your perusal. This certificate can be then be saved in the digi-locker."],
+         "context": [""]
+        },
+        {"tag": "duedate",
+         "patterns": ["Is there duedate for vaccine"],
+         "responses": ["Following online registration, beneficiary will receive SMS on their registered mobile number about the due date, place and time of vaccination."],
+         "context": [""]
+        },
+        {"tag": "license",
+         "patterns": ["Which COVID-19 vaccines are licensed in India","Are vaccine licenced?"],
+         "responses": ["Two vaccines that have been granted emergency use authorization by the Central Drugs Standard Control Organization (CDSCO) in India are Covishield® (AstraZeneca's vaccine manufactured by Serum Institute of India) and Covaxin® (manufactured by Bharat Biotech Limited)"],
+         "context": [""]
+        },
+        {"tag": "eua",
+         "patterns": ["Which COVID-19 vaccines are licensed in India","Are vaccine licenced?"],
+         "responses": ["Emergency Use Authorization (EUA) is a regulatory mechanism to allow the use of vaccines and medicines to prevent and/or reduce the impact of life-threatening diseases or conditions as caused by COVID-19. However, before grant of the EUA, rigorous assessments of laboratory and clinical trial data, including data on quality, safety, production of protective antibodies and efficacy is conducted. Safety is particularly critical aspect of this scrutiny and a risk-versus- benefit evaluation is done in the context of a public health emergency. Full licensure is obtained when the manufacturer submits the complete data. EUA by Indian regulators is aligned with global guidelines."],
+         "context": [""]
+        },
+        {"tag": "clinical",
+         "patterns": ["Are vaccine clinical tested","Vaccine clinical trail"],
+         "responses": ["Both the Indian COVID-19 vaccines have completed their Phase I & II trials. Covishield® has completed its Phase III trials in UK and the bridging trial in India."],
+         "context": [""]
+        },
+        {"tag": "vaccine",
+         "patterns": ["Which covid vaccine are used in India","Vaccine in India"],
+         "responses": ["Covishield and Covaxin both vaccine are clinical tested and approved by Indian Health Organization.Covishield® vaccine, manufactured by the Serum Institute of India, is a Viral Vector-based Technology which is also used to manufacture Ebola vaccine.Covaxin® vaccine, manufactured by the Bharat Biotech, is a Whole-virion Inactivated Coronavirus Vaccine which is also used to manufacture vaccines like Influenza, Rabies and Hepatitis- A."],
+         "context": [""]
+        },
+        {"tag": "phase",
+         "patterns": ["What are phase for vaccine"],
+         "responses": ["Vaccine trial phases includes:-Pre-clinical: Vaccine development in laboratory animals.Phase 1 Clinical trial (small number of participants): Assess vaccine safety, immune response and determine right dosage (short duration).Phase 2 Clinical trial (few hundred participants): Assess safety and the ability of the vaccine to generate an immune response (short duration).Phase 3 Clinical trial (thousands of participants): Determine vaccine effectiveness against the disease and safety in a larger group of people (duration 1-2 years)"],
+         "context": [""]
+        },
+        {"tag": "composition",
+         "patterns": ["What is the composition of both the vaccines"],
+         "responses": ["Composition of Covishield includes inactivated adenovirus with segments of Coronavirus, Aluminium Hydroxide Gel, L-Histidine, L-Histidine Hydrochloride Monohydrate, Magnesium Chloride Hexahydrate, Polysorbate 80, Ethanol, Sucrose, Sodium Chloride, and Disodium Edetate Dihydrate (EDTA). Composition of Covaxin includes inactivated Coronavirus, Aluminum Hydroxide Gel, TLR 7/8 Agonist, 2-Phenoxyethanol and Phosphate Buffered Saline [NKA1]."],
+         "context": [""]
+        },
+        {"tag": "Astrazeneca",
+         "patterns": ["Astrazeneca and Covishield are same"],
+         "responses": ["Yes, Covishield® vaccine, manufactured by the Serum Institute of India, is based on the same patent technology as the Astrazeneca vaccine."],
+         "context": [""]
+        },
+        {"tag": "schedule",
+         "patterns": ["What is the dose scahedule of both vaccine"],
+         "responses": ["The time interval between two doses of the Covishield vaccine has been extended from four-six weeks to four-eight weeks. The second dose of Covaxin can be taken four to six weeks after the first."],
+         "context": [""]
+        },
+        {"tag": "mandatory",
+         "patterns": ["Is it mandatory to take the vaccine?"],
+         "responses": ["Vaccination for COVID-19 is voluntary. However, it is advisable to receive the complete schedule of COVID-19 vaccine for protecting oneself against this disease and also to limit the spread of this disease to the close contacts including family members, friends, relatives and co-workers."],
+         "context": [""]
+        },
+        {"tag": "safe",
+         "patterns": ["Are vaccine safe?"],
+         "responses": ["Vaccines are introduced in the country only after the regulatory bodies clear it based on its safety and efficacy."],
+         "context": [""]
+        },
+        {"tag": "everyone",
+         "patterns": ["Will COVID-19 vaccine be given to everyone "],
+         "responses": ["Based on the potential availability of vaccines the Government of India has selected the priority groups who will be vaccinated on priority as they are at higher risk. The first group includes healthcare and frontline workers. The second group to receive COVID-19 vaccine will be persons over 60 years of age and persons between 45 and 59 years of age with comorbid conditions."],
+         "context": [""]
+        },
+        {"tag": "confirm",
+         "patterns": ["Will COVID-19 vaccine be given condirmed infected person"],
+         "responses": ["Person with confirmed or suspected COVID-19 infection may increase the risk of spreading the same to others at vaccination site. For this reason, infected individuals should defer vaccination for 14 days after symptoms resolution."],
+         "context": [""]
+        },
+        {"tag": "eligible",
+         "patterns": ["How will I know if I am eligible for vaccination?","eligible for vaccine"],
+         "responses": ["In the initial phase, COVID-19 vaccine will be provided to the priority group - Health Care and Front-line workers. The second phase vaccinations, starting March 1, 2021 will allow for all Indians above the age of 60 and Indians between the age of 45 and 59 with comorbidities to be vaccinationated. Registrations will be allowed on the Co-WIN 2.0 Portal, Aarogya Setu app etc. The comorbidities that make a person eligible for vaccinations are listed below:1)Heart Failure with hospital admission in past one year.2)Post Cardiac Transplant/Left Ventricular Assist Device (LVAD).3)Significant Left ventricular systolic dysfunction (LVEF <40%).4)Moderate or Severe Valvular Heart Disease .5)Congenital heart disease with severe PAH or Idiopathic PAH.6)Coronary Artery Disease with past CABG/PTCA/MI AND Hypertension/Diabetes on treatment .7)Angina AND Hypertension/Diabetes on treatment.8)CT/MRI documented stroke AND Hypertension/Diabetes on treatment.9)Pulmonary Artery Hypertension AND Hypertension/Diabetes on treatment.10)Diabetes (> 10 years OR with complications) AND Hypertension on treatment.11)Kidney/ Liver/ Hematopoietic stem cell transplant: Recipient/On wait-list.12)End Stage Kidney Disease on haemodialysis/ CAPD.13)Current prolonged use of oral corticosteroids/ immunosuppressant medications .14)Decompensated cirrhosis.15)Severe respiratory disease with hospitalizations in last two years/FEV1 <50%.16)Lymphoma/ Leukaemia/ Myeloma.17)Diagnosis of any solid cancer on or after 1st July 2020 OR currently on any cancer therapy.18)Sickle Cell Disease/ Bone marrow failure/ Aplastic Anemia/ Thalassemia Major.19)Primary Immunodeficiency Diseases/ HIV infection.20)Persons with disabilities due to Intellectual disabilities/ Muscular Dystrophy/ Acid attack with involvement of respiratory system/ Persons with disabilities having high support needs/ Multiple disabilities including deaf-blindness"],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["Which age group are able to take vaccine"],
+         "responses": ["All above 60 years of age, 45-plus with other illnesses to get Covid-19 vaccine from March 1, 2021."],
+         "context": [""]
+        },
+        {"tag": "better",
+         "patterns": ["Which vaccine is better between Covisheild and Covaxin"],
+         "responses": ["There is no head-to-head comparison done between the two vaccines being used in India so one cannot choose one over the other. Both would work fine in preventing the infection as well as prevent a person from going into severe state of the disease. As a long-term effect, it would be preventing death for elderly people or those who have comorbidities."],
+         "context": [""]
+        },
+        {"tag": "protect",
+         "patterns": ["How long will vaccine proteect me?"],
+         "responses": ["Longevity of the immune response in vaccinated individuals is yet to be determined. Hence, continuing the use of masks, handwashing, physical distancing and other COVID-19 appropriate behaviours is strongly recommended."],
+         "context": [""]  
+        },
+        {"tag": "alcohol",
+         "patterns": ["Should you avoid alcohol after receiving the COVID-19 vaccine?"],
+         "responses": ["As per experts, there is no evidence of alcohol impairing the effectiveness of the vaccine."],
+         "context": [""]
+        },
+        {"tag": "immunity",
+         "patterns": ["Does vaccine improve immunity?"],
+         "responses": ["When an increasing number of people get vaccinated in the community, indirect protection through herd immunity develops. The percentage of people who need to be immune in order to achieve herd immunity varies with each disease. For example, its 95% for measles, however the proportion of the population that must be vaccinated against COVID-19 to begin inducing herd immunity is not known."],
+         "context": [""]
+        },
+        {"tag": "India",
+         "patterns": ["Current covid count in India","Current cases in India","India","Live covid patient in India","Death in India","Cured Cases in India"],
+         "responses": ["Total 144635859746943812079,Active 2882204,Cured 14556209,Death 197894,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "maharashtra",
+         "patterns": ["Current covid count in maharashtra","Current cases in maharashtra","maharashtra","Live covid patient in maharashtra","Death in maharashtra","Cured Cases in maharashtra"],
+         "responses": ["Total 649563306117459970,Active 649563,Cured 3061174,Death 59970,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Ahmednagar",
+         "patterns": ["Current covid count in Ahmednagar","Current cases in Ahmednagar","Ahmednagar","Live covid patient in Ahmednagar","Death in Ahmednagar","Cured Cases in Ahmednagar"],
+         "responses": ["Confirmed 130336,Active 20577,Recovered 108291,Deceased 1467, For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Akola",
+         "patterns": ["Current covid count in Akola","Current cases in Akola","Akola","Live covid patient in Akola","Death in Akola","Cured Cases in Akola"],
+         "responses": ["Confirmed 34149,Active 3386,Recovered 30222,Deceased 537,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Amravati",
+         "patterns": ["Current covid count in Amravati","Current cases in Amravati","Amravati","Live covid patient in Amravati","Death in Amravati","Cured Cases in Amravati"],
+         "responses": ["Confirmed 55535,Active 5236,Recovered 49563,Deceased 734,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Aurangabad",
+         "patterns": ["Current covid count in Aurangabad","Current cases in Aurangabad","Aurangabad","Live covid patient in Aurangabad","Death in Aurangabad","Cured Cases in Aurangabad"],
+         "responses": ["Confirmed 107042,Active 13499,Recovered 92017,Deceased 1512,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Beed",
+         "patterns": ["Current covid count in Beed","Current cases in Beed","Beed","Live covid patient in Beed","Death in Beed","Cured Cases in Beed"],
+         "responses": ["Confirmed 38952,Active 9047,Recovered 29165,Deceased 731,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Bhandara",
+         "patterns": ["Current covid count in Bhandara","Current cases in Bhandara","Bhandara","Live covid patient in Bhandara","Death in Bhandara","Cured Cases in Bhandara"],
+         "responses": ["Confirmed 36566,Active 14182,Recovered 22047,Deceased 334,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Buldhana",
+         "patterns": ["Current covid count in Buldhana","Current cases in Buldhana","Buldhana","Live covid patient in Buldhana","Death in Buldhana","Cured Cases in Buldhana"],
+         "responses": ["Confirmed 37227,Active 1383,Recovered 35498,Deceased 341,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Chandrapur",
+         "patterns": ["Current covid count in Chandrapur","Current cases in Chandrapur","Chandrapur","Live covid patient in Chandrapur","Death in Chandrapur","Cured Cases in Chandrapur"],
+         "responses": ["Confirmed 40841,Active 11026,Recovered 29306,Deceased 507,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Dhule",
+         "patterns": ["Current covid count in Dhule","Current cases in Dhule","Dhule","Live covid patient in Dhule","Death in Dhule","Cured Cases in Dhule"],
+         "responses": ["Confirmed 33690,Active 7744,Recovered 25537,Deceased 405,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Gadchiroli",
+         "patterns": ["Current covid count in Gadchiroli","Current cases in Gadchiroli","Gadchiroli","Live covid patient in Gadchiroli","Death in Gadchiroli","Cured Cases in Gadchiroli"],
+         "responses": ["Confirmed 13244,Active 2300,Recovered 10815,Deceased 121,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Gondia",
+         "patterns": ["Current covid count in Gondia","Current cases in Gondia","Gondia","Live covid patient in Gondia","Death in Gondia","Cured Cases in Gondia"],
+         "responses": ["Confirmed 24640,Active 8038,Recovered 16371,Deceased 225,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Hingoli",
+         "patterns": ["Current covid count in Hingoli","Current cases in Hingoli","Hingoli","Live covid patient in Hingoli","Death in Hingoli","Cured Cases in Hingoli"],
+         "responses": ["Confirmed 10459,Active 1804,Recovered 8528,Deceased 127,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Jalgaon",
+         "patterns": ["Current covid count in Jalgaon","Current cases in Jalgaon","Jalgaon","Live covid patient in Jalgaon","Death in Jalgaon","Cured Cases in Jalgaon"],
+         "responses": ["Confirmed 104906,Active 11797,Recovered 91364,Deceased 1718,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Jalna",
+         "patterns": ["Current covid count in Jalna","Current cases in Jalna","Jalna","Live covid patient in Jalna","Death in Jalna","Cured Cases in Jalna"],
+         "responses": ["Confirmed 34060,Active 9253,Recovered 24264,Deceased 542,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Kolhapur",
+         "patterns": ["Current covid count in Kolhapur","Current cases in Kolhapur","Kolhapur","Live covid patient in Kolhapur","Death in Kolhapur","Cured Cases in Kolhapur"],
+         "responses": ["Confirmed 55747,Active 3465,Recovered 50558,Deceased 1721,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Latur",
+         "patterns": ["Current covid count in Latur","Current cases in Latur","Latur","Live covid patient in Latur","Death in Latur","Cured Cases in Latur"],
+      "responses": ["Confirmed 54011,Active 15348,Recovered 37804,Deceased 855,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Mumbai",
+         "patterns": ["Current covid count in Mumbai","Current cases in Mumbai","Mumbai","Live covid patient in Mumbai","Death in Mumbai","Cured Cases in Mumbai"],
+         "responses": ["Confirmed 571018,Active 86433,Recovered 471080,Deceased 12301,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Nagpur",
+         "patterns": ["Current covid count in Nagpur","Current cases in Nagpur","Nagpur","Live covid patient in Nagpur","Death in Nagpur","Cured Cases in Nagpur"],
+      "responses": ["Confirmed 324714,Active 72860,Recovered 247336,Deceased 4472,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Nanded",
+         "patterns": ["Current covid count in Nanded","Current cases in Nanded","Nanded","Live covid patient in Nanded","Death in Nanded","Cured Cases in Nanded"],
+         "responses": ["Confirmed 67904,Active 12906,Recovered 53805,Deceased 1186,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Nandurbar",
+         "patterns": ["Current covid count in Nandurbar","Current cases in Nandurbar","Nandurbar","Live covid patient in Nandurbar","Death in Nandurbar","Cured Cases in Nandurbar"],
+         "responses": ["Confirmed 27785,Active 7314,Recovered 20089,Deceased 381,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Nashik",
+         "patterns": ["Current covid count in Nashik","Current cases in Nashik","Nashik","Live covid patient in Nashik","Death in Nashik","Cured Cases in Nashik"],
+         "responses": ["Confirmed 244956,Active 40449,Recovered 201932,Deceased 2574,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Osmanabad",
+         "patterns": ["Current covid count in Osmanabad","Current cases in Osmanabad","Osmanabad","Live covid patient in Osmanabad","Death in Osmanabad","Cured Cases in Osmanabad"],
+         "responses": ["Confirmed 29602,Active 5400,Recovered 23494,Deceased 691,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Palghar",
+         "patterns": ["Current covid count in Palghar","Current cases in Palghar","Palghar","Live covid patient in Palghar","Death in Palghar","Cured Cases in Palghar"],
+         "responses": ["Confirmed 69590,Active 11119,Recovered 57329,Deceased 1132,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Parbhani",
+         "patterns": ["Current covid count in Parbhani","Current cases in Parbhani","Parbhani","Live covid patient in Parbhani","Death in Parbhani","Cured Cases in Parbhani"],
+         "responses": ["Confirmed 25040,Active 11125,Recovered 13456,Deceased 448,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Pune",
+         "patterns": ["Current covid count in Pune","Current cases in Pune","Pune","Live covid patient in Pune","Death in Pune","Cured Cases in Pune"],
+         "responses": ["Confirmed 713144,Active 120452,Recovered 583865,Deceased 8772,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Raigad",
+         "patterns": ["Current covid count in Raigad","Current cases in Raigad","Raigad","Live covid patient in Raigad","Death in Raigad","Cured Cases in Raigad"],
+         "responses": ["Confirmed 100765,Active 11440,Recovered 87569,Deceased 1754,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Ratnagiri",
+         "patterns": ["Current covid count in Ratnagiri","Current cases in Ratnagiri","Ratnagiri","Live covid patient in Ratnagiri","Death in Ratnagiri","Cured Cases in Ratnagiri"],
+         "responses": ["Confirmed 15835,Active 3019,Recovered 12370,Deceased 444,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Sangli",
+         "patterns": ["Current covid count in Sangli","Current cases in Sangli","Sangli","Live covid patient in Sangli","Death in Sangli","Cured Cases in Sangli"],
+         "responses": ["Confirmed 63344,Active 6604,Recovered 54829,Deceased 1909,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+         },
+        {"tag": "Satara",
+         "patterns": ["Current covid count in Satara","Current cases in Satara","Pune","Live covid patient in Satara","Death in Satara","Cured Cases in Satara"],
+         "responses": ["Confirmed 80252,Active 11625,Recovered 66617,Deceased 2001,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Sindhudurg",
+         "patterns": ["Current covid count in Sindhudurg","Current cases in Sindhudurg","Sindhudurg","Live covid patient in Sindhudurg","Death in Sindhudurg","Cured Cases in Sindhudurg"],
+         "responses": ["Confirmed 9722,Active 2120,Recovered 7384,Deceased 218,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Solapur",
+         "patterns": ["Current covid count in Solapur","Current cases in Solapur","Solapur","Live covid patient in Solapur","Death in Solapur","Cured Cases in Solapur"],
+         "responses": ["Confirmed 84263,Active 11656,Recovered 70490,Deceased 2063,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Thane",
+         "patterns": ["Current covid count in Thane","Current cases in Thane","Thane","Live covid patient in Thane","Death in Thane","Cured Cases in Thane"],
+         "responses": ["Confirmed 445013,Active 82047,Recovered 356548,Deceased 6387,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Wardha",
+         "patterns": ["Current covid count in Wardha","Current cases in Wardha","Wardha","Live covid patient in Wardha","Death in Wardha","Cured Cases in Wardha"],
+         "responses": ["Confirmed 30228,Active 4518,Recovered 25219,Deceased 415,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Washim",
+         "patterns": ["Current covid count in Washim","Current cases in Washim","Washim","Live covid patient in Washim","Death in Washim","Cured Cases in Washim"],
+         "responses": ["Confirmed 21942,Active 3692,Recovered 18030,Deceased 217,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "Yavatmal",
+         "patterns": ["Current covid count in Yavatmal","Current cases in Yavatmal","Yavatmal","Live covid patient in Yavatmal","Death in Yavatmal","Cured Cases in Yavatmal"],
+         "responses": ["Confirmed 34039,Active 5036,Recovered 28382,Deceased 617,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "context": [""]
+        },
+        {"tag": "hospital",
+         "patterns": ["Covid Hospita near me?","Covid Hospital","Where can i get hospitalized for covid virus","Hospital for CoVID-19"],
+         "responses": ["Please enter your pincode for nearby CoVID-19 Hospital:"],
+         "context": [""]
+        },
+        {"tag": "400005",
+         "patterns": ["400005","400 005"],
+         "responses": ["ARMY Central MI Room For ARMY, Mumbai, Maharashtra, 400005"],
+         "context": [""]
+        },
+        {"tag": "400051",
+         "patterns": ["400051","400 051"],
+         "responses": ["BKC Jumbo COVID Facility 12, Mumbai, Maharashtra, 400051., Asian Heart Institute Centre , Mumbai, Maharashtra, 400051"],
+         "context": [""]
+        },
+        {"tag": "400034",
+         "patterns": ["400034","400 034"],
+         "responses": ["B. D. PETIT PARSEE HOSPITAL 1 , Mumbai, Maharashtra, 400034."],
+         "context": [""]
+        },
+        {"tag": "400097",
+         "patterns": ["400097","400 097"],
+         "responses": ["Balajee Hospital (Malad East) , Mumbai, Maharashtra, 400097., Balajee Hospital Malad Mumbai , Mumbai, Maharashtra, 400097"],
+         "context": [""]
+        },
+        {"tag": "400027",
+         "patterns": ["400027","400 027"],
+         "responses": ["BALAJI HEART HOSPITAL -Byculla ,Mumbai, Maharashtra, 400027., MASINA HOSPITAL 1 ,Mumbai, Maharashtra, 400027"],
+         "context": [""]
+        },
+        {"tag": "400050",
+         "patterns": ["400050","400 050"],
+         "responses": ["Bhabha Hospital Bandra ,Mumbai, Maharashtra, 400050."],
+         "context": [""]
+        },
+        {"tag": "400020",
+         "patterns": ["400020","400 020"],
+         "responses": ["BOMBAY HOSPITAL (CST) MUMBAI , Mumbai, Maharashtra, 400020., BOMBAY HOSPITAL (CST) , Mumbai, Maharashtra, 400020"],
+         "context": [""]
+        },
+        {"tag": "400026",
+         "patterns": ["400026","400 026"],
+         "responses": ["BREACH CANDY HOSPITAL 1 ,Mumbai, Maharashtra, 400026., BREACH CANDY HOSPITAL MUMBAI , Mumbai, Maharashtra, 400026., Jaslok Hospital 1, Mumbai, Maharashtra, 400026., Jaslok Hospital Mumbai , Mumbai, Maharashtra, 400026."],
+         "context": [""]
+        },
+        {"tag": "400004",
+         "patterns": ["400004","400 004"],
+         "responses": ["ONWEST JAIN HOSPITAL , Mumbai, Maharashtra, 400004."],
+         "context": [""]
+        },
+        {"tag": "400001",
+         "patterns": ["400001","400 001"],
+         "responses": ["CAMA HOSPITAL 3,Mumbai, Maharashtra, 400001."],
+         "context": [""]
+        },
+        {"tag": "400058",
+         "patterns": ["400058","400 058"],
+         "responses": ["Cooper Hospital 7, Mumbai, Maharashtra, 400058."],
+         "context": [""]
+        },
+        {"tag": "400018",
+         "patterns": ["400018","400 018"],
+         "responses": ["ESIS HOSPITAL WORLI,Mumbai, Maharashtra, 400018."],
+         "context": [""]
+        },
+        {"tag": "400078",
+         "patterns": ["400078","400 078"],
+         "responses": ["FORTIS HOSPITAL-1- Mulund Paid,Mumbai, Maharashtra, 400078."],
+         "context": [""]
+        },
+        {"tag": "400021",
+         "patterns": ["400021","400 021"],
+         "responses": ["HCG ICS Cancer Hospital , Mumbai, Maharashtra, 400021."],
+         "context": [""]
+        },
+        {"tag": "400086",
+         "patterns": ["400086","400 086"],
+         "responses": ["SARVODAYA HOSPITAL- Ghatkopar, Mumbai, Maharashtra, 400086., SHANTINIKETAN HOSPITAL , Mumbai, Maharashtra, 400086. , Hindu Sabha Hospital ,Mumbai, Maharashtra, 400086."],
+         "context": [""]
+        },
+        {"tag": "400093",
+         "patterns": ["400093","400 093"],
+         "responses": ["HOLY SPIRIT HOSPITAL 1 , Mumbai, Maharashtra, 400093."],
+         "context": [""]
+        },
+        {"tag": "400074",
+         "patterns": ["400074","400 074"],
+         "responses": ["INLAKS HOSPITAL Chembur Mumbai , Mumbai, Maharashtra, 400074. ,INLAKS HOSPITAL ,Mumbai, Maharashtra, 400074."],
+         "context": [""]
+        },
+        {"tag": "400002",
+         "patterns": ["400002","400 002"],
+         "responses": ["K. G. MITTAL HOS. Charni Road, Mumbai, Maharashtra, 400002."],
+         "context": [""]
+        },
+        {"tag": "400103",
+         "patterns": ["400103","400 103"],
+         "responses": ["Karuna Hospital Borivali , Mumbai, Maharashtra, 400103."],
+         "context": [""]
+        },
+        {"tag": "400012",
+         "patterns": ["400012","400 012"],
+         "responses": ["TATA MEMORIAL HOSPITAL PAREL,Mumbai, Maharashtra, 400012., N Wadia Hospital Parel , Mumbai, Maharashtra, 400012., KEM Hospital 10, Mumbai, Maharashtra, 400012."],
+         "context": [""]
+        },
+        {"tag": "400011",
+         "patterns": ["400011","400 011"],
+         "responses": ["Wockhardt Hosp Mum-Central 2 , Mumbai, Maharashtra, 400011., Kasturba Hospital 1, Mumbai, Maharashtra, 400011."],
+         "context": [""]
+        },
+        {"tag": "400083",
+         "patterns": ["400083","400 083"],
+         "responses": ["KMJ PHULE HOSPITAL VIKHROLI,Mumbai, Maharashtra, 400083., SHUSHRUSHA HOSPITAL MUMBAI , Mumbai, Maharashtra, 400083."],
+         "context": [""]
+        },
+        {"tag": "400070",
+         "patterns": ["400070","400 070"],
+         "responses": ["Kohinoor Hospital -1 , Mumbai, Maharashtra, 400070., Kurla Bhabha Hospital-1, Mumbai, Maharashtra, 400070."],
+         "context": [""]
+        },
+        {"tag": "400064",
+         "patterns": ["400064","400 064"],
+         "responses": ["Lifeline Hospital Malad , Mumbai, Maharashtra, 400064."],
+         "context": [""]
+        },
+        {"tag": "400102",
+         "patterns": ["400102","400 102"],
+         "responses": ["Mallika Hospital Jogeshwari , Mumbai, Maharashtra, 400102."],
+         "context": [""]
+        },
+        {"tag": "400099",
+         "patterns": ["400099","400 099"],
+         "responses": ["N Ward Ganesh Nagar , Mumbai, Maharashtra, 400099."],
+         "context": [""]
+        },
+        {"tag": "400008",
+         "patterns": ["400008","400 008"],
+         "responses": ["Nair Hospital 1,Mumbai, Maharashtra, 400008."],
+         "context": [""]
+        },
+        {"tag": "400056",
+         "patterns": ["400056","400 056"],
+         "responses": ["NANAVATI HOSPITAL 1 , Mumbai, Maharashtra, 400056."],
+         "context": [""]
+        },
+        {"tag": "400010",
+         "patterns": ["400010","400 010"],
+         "responses": ["PRINCE ALI KHAN HOSPITAL 1, Mumbai, Maharashtra, 400010."],
+         "context": [""]
+        },
+        {"tag": "400077",
+         "patterns": ["400077","400 077"],
+         "responses": ["Rajawadi Hospital 2 ,Mumbai, Maharashtra, 400077."],
+         "context": [""]
+        },
+        {"tag": "400089",
+         "patterns": ["400089","400 089"],
+         "responses": ["SRV Hospital - Chembur (MPMWC) , Mumbai, Maharashtra, 400089., Rane Hospital Pvt.Ltd , Mumbai, Maharashtra, 400089., SRV Hospital - Chembur , Mumbai, Maharashtra, 400089"],
+         "context": [""]
+        },
+        {"tag": "400059",
+         "patterns": ["400059","400 059"],
+         "responses": ["SEVEN HIILS 1, Mumbai, Maharashtra, 400059."],
+         "context": [""]
+        },
+        {"tag": "400043",
+         "patterns": ["400043","400 043"],
+         "responses": ["Shatabdi Hospital 2-Govandi, Mumbai, Maharashtra, 400043."],
+         "context": [""]
+        },
+        {"tag": "400022",
+         "patterns": ["400022","400 022"],
+         "responses": ["Sion Hospital 2,Mumbai, Maharashtra, 400022."],
+         "context": [""]
+        },
+        {"tag": "400006",
+         "patterns": ["400006","400 006"],
+         "responses": ["St Elizabeths Hospital , Mumbai, Maharashtra, 400006."],
+         "context": [""]
+        },
+        {"tag": "400071",
+         "patterns": ["400071","400 071"],
+         "responses": ["ZEN HOSPITAL MUMBAI CHEMBUR , Mumbai, Maharashtra, 400071., SURANA SETHIA HOSPITAL CHEMBUR ,Mumbai, Maharashtra, 400071."],
+         "context": [""]
+        },
+        {"tag": "400019",
+         "patterns": ["400006","400 006"],
+         "responses": ["URBAN HEALTH CENTER DHARAVI, Mumbai, Maharashtra, 400019., URBAN HEALTH CENTER DHARAVI, Mumbai, Maharashtra, 400019."],
+         "context": [""]
+        },
+        {"tag": "vaccine center",
+         "patterns": ["Vaccine center near me?", "Vaccine Center", "Government Vaccine Center"],
+         "responses": ["Following are the  Government hospita for vaccine :Apex Hospitals, Apex Multispeciality Hospitals, Ashtvinayak Hospital & Super Speciality Hospital, Asian Institute of Medical Science, Balaji Hospital, Dr. R.N.Patil's Suraj Hospital, Life Line Multi Speciality Hospital, M/s S. S. Vaidya Health Care Pvt. Ltd, Mallika Hospital, MPCT Hospital, Niramaya Hospital, Panacea Hospital, Pinnacle Ortho Centre, Prachin Healthcare Multi-speciality Hospital, Rane Hospital Pvt. Ltd, Riddhi Vinayak, Critical Care & Cardiac Centre, Riddhi Vinayak, Multi Speciality Hospital, Sapana Health Care Centre, Shantiniketan Hospital, Shivam Hospital, Shivam Hospital, Multi Spciality & Joint Replacement Centre, Shree Balaji Hospital, Shushrusha Heart Care Center & Multi Speciality Hospital, Siddhivinayak Maternity & General Hospital, SRCC Childrens Hospital, Surana Hospital & Research Centre, Surana Sethia Hospital Research Centre, Surekha Criticare Hospital, Swami Sarwanand Hospital, Terna Multi Speciality Hospital and Research Centre, Highland Super Specialty Hospital.  Following are the Private Hospital: Muslim Ambulance Dialysis Center,M.H. Saboo Siddique Maternity & General Hospital,Nana Palkar Smruti Samiti,BAI JERBAI WADIA HOSPITAL FOR CHILDREN & NOWROSJEE WADIA MATERNITY HOSPITAL,Lalbaug Raja Dialysis Center,Dalvi Nursing Home,Lion Tarachand Bapa Hospital,K.J.Somaiya Hospital & Research Centre,SRCC Childrens Hospital - Managed by Narayana Health,Rehbar foundation Malik Rakiya Khatoon dialysis centre, Shatabdi hospital,Nana Palkar Smruti Samiti Santacruz Dialysis Centre,Lion Kartar singh Hospital,Brahma Kumaris GHRC managing BSES MG Hospital,Lifeline Medicare Hospital,Millat Dialysis Center,VENUS CHARITABLE MEDICAL CENTRE CONDUCTED BY VENUS CULTURAL ASSOCIATION,Prabodhan Charitable Dialysis Center,Kosmopolitan Charitable Dialysis and Day CareCenter,Shree Naminath Jain Foundation (Borivali east),Shree Naminath Jain Foundation (Borivali west),SUSHRUT HOSPITAL AND RESEARCH CENTRE,Parakh Hospital,Dr Bhatias Hospital,Dr.Meenas Multispeciality Hospital , Bhandup,PLATINUM HOSPITAL,H. J. Doshi Ghatkopar Hindu Sabha Hospital,Shivam Hospital (Dialysis Unit),Rane Hospital Pvt. Ltd,HCG APEX cancer centre,APEX HOSPITALS,Lancelot Dialysis Center,SHREE BALAJI SUPER SPECIALITY HOSPITAL,Shree Naminath Jain Foundation (Malad East), MALLIKA HOSPITAL"],
+         "context": [""]
+        },
+        {"tag": "vaccine center",
+         "patterns": ["Vaccine center near me?", "Vaccine Center", "Government Vaccine Center"],
+         "responses": ["Following are the  Government hospita for vaccine :Apex Hospitals, Apex Multispeciality Hospitals, Ashtvinayak Hospital & Super Speciality Hospital, Asian Institute of Medical Science, Balaji Hospital, Dr. R.N.Patil's Suraj Hospital, Life Line Multi Speciality Hospital, M/s S. S. Vaidya Health Care Pvt. Ltd, Mallika Hospital, MPCT Hospital, Niramaya Hospital, Panacea Hospital, Pinnacle Ortho Centre, Prachin Healthcare Multi-speciality Hospital, Rane Hospital Pvt. Ltd, Riddhi Vinayak, Critical Care & Cardiac Centre, Riddhi Vinayak, Multi Speciality Hospital, Sapana Health Care Centre, Shantiniketan Hospital, Shivam Hospital, Shivam Hospital, Multi Spciality & Joint Replacement Centre, Shree Balaji Hospital, Shushrusha Heart Care Center & Multi Speciality Hospital, Siddhivinayak Maternity & General Hospital, SRCC Childrens Hospital, Surana Hospital & Research Centre, Surana Sethia Hospital Research Centre, Surekha Criticare Hospital, Swami Sarwanand Hospital, Terna Multi Speciality Hospital and Research Centre, Highland Super Specialty Hospital.  Following are the Private Hospital: Muslim Ambulance Dialysis Center,M.H. Saboo Siddique Maternity & General Hospital,Nana Palkar Smruti Samiti,BAI JERBAI WADIA HOSPITAL FOR CHILDREN & NOWROSJEE WADIA MATERNITY HOSPITAL,Lalbaug Raja Dialysis Center,Dalvi Nursing Home,Lion Tarachand Bapa Hospital,K.J.Somaiya Hospital & Research Centre,SRCC Childrens Hospital - Managed by Narayana Health,Rehbar foundation Malik Rakiya Khatoon dialysis centre, Shatabdi hospital,Nana Palkar Smruti Samiti Santacruz Dialysis Centre,Lion Kartar singh Hospital,Brahma Kumaris GHRC managing BSES MG Hospital,Lifeline Medicare Hospital,Millat Dialysis Center,VENUS CHARITABLE MEDICAL CENTRE CONDUCTED BY VENUS CULTURAL ASSOCIATION,Prabodhan Charitable Dialysis Center,Kosmopolitan Charitable Dialysis and Day CareCenter,Shree Naminath Jain Foundation (Borivali east),Shree Naminath Jain Foundation (Borivali west),SUSHRUT HOSPITAL AND RESEARCH CENTRE,Parakh Hospital,Dr Bhatias Hospital,Dr.Meenas Multispeciality Hospital , Bhandup,PLATINUM HOSPITAL,H. J. Doshi Ghatkopar Hindu Sabha Hospital,Shivam Hospital (Dialysis Unit),Rane Hospital Pvt. Ltd,HCG APEX cancer centre,APEX HOSPITALS,Lancelot Dialysis Center,SHREE BALAJI SUPER SPECIALITY HOSPITAL,Shree Naminath Jain Foundation (Malad East), MALLIKA HOSPITAL"],
+         "context": [""]
+        },
+        {"tag": "testcenter",
+         "patterns": ["Covid Test center near me", "Test center", " Covid test center"],
+         "responses": ["Please enter Ward for test center near you"],
+         "context": [""]
+        },
+        {"tag": "ward",
+         "patterns": ["what is ward", "ward", "how to check Ward"],
+         "responses": ["Check your Ward as per Location:- Ward A - Fort, parts of Ballard Estate, Shahid Bhagat Singh Road, P D’Mello Road, Marine Drive (Queen’s Necklace), AP Marg, Carnac Road (Lokmanya Tilak Marg) and Colaba.,Ward B -  P D’Mello road, IR Road, Abdul Rehman Street, RB Marg, MA Road, JMR Marg and Carnac Road (Lokmanya Tilak Marg).,Ward C - Chandanwadi, parts of IR Road, Abdul Rehman Street, Netaji Subhash Road, Maulana Shaukatali Road, Trimbak Parshuram St., Ardeshir Dady Jaykar St, Vitthalbhai Patel Road, Babasaheb J. Marg, Lokmanya Tilak Marg, Vasudeo Balvant Phadke Chowk, Anandilal Poddar Marg and Marine Drive.,Ward D - Grant Road, Dr.D.B.Marg, V. P. Road, Ardeshir Dadi Street, Trimbak Parshuram Street, Sukhiaji Street, Netaji Subhash Road, D. N. Purandare Marg, Walkeshwar Road, B. lndrajit Road, Breach Candy up to Haji Ali, Boman Behram Marg, Aurthur Road, Tardeo Road, Cumballa and Malabar Hills, Keshavrao Khade Marg, B. Jaikar Marg up to Bhuleshwar Naka, Crossing M. K. Road up to Seashore.,Ward E -  Byculla, parts of Reay Road, West Sane Guruji Marg, Jahangir Boman Behram Marg, Sukhalaji Street, Dattaram Lad Marg, South Ramchandra Bhatt Marg, Wadi Bunder and Maulana Shaukataii Road.,Ward F  North -   Matunga, parts of Thane Creek and Mankikar Marg.,Ward F South  -  Parel,Ward G - North    Dadar,Ward G - South    N. M. Joshi Marg and Worli,Ward H - East Eastern parts of Bandra, Khar, Santacruz, parts of CST Road, Vile Parle, Mahim and Dharavi.,Ward H - West Bandra, parts of Khar and Santacruz,Ward K East - Andheri (East) Vile Parle (East) Jogeshwari (East),Ward K West - Andheri (West) and Oshiwara.,Ward P  North -   Malad,Ward P South -   Goregaon, parts of Malad and Oshiwara.,Ward R - Central   Sanjay Gandhi National Park (National Park), Gorai, Kulvem Village (Devidas Lane) N.D. Zone to Link Road from Devidas lane to N.C. Phadke fly over bridge and Daulat Nagar, Cemetery Rvier to Nancy Colony 44′-0 wide Road, Chogale Nagar, Borivali (E). Khatao Estate, Bhor Industries 90′-0 wide D.P. Road, Railway subway Poisar Depot, 90′-0 Borsapada Rd. Mahavir Nagar RDP-4, Charkop up to Creek.,Ward R North -   Dahisar,Ward R South  -  Kandivali comes under this ward Thakur complex, Thakur Village, Lokhandwala Complex, MG Road Kandivali (West), Patel Nagar, Mathuradas Road etc.,Ward L - Kurla, Chandivali, Saki Naka, Tungwa, parts of Powai.,Ward M - East Govandi and few area of Chembur comes under this ward. (Pin code – 400088, 400043 & Half area of 400074),Ward M West - G.M. Link Road to Suman Nagar Junction and from Mahul to Somayya Nallah (Pin code – 400089, 400071 & half area of 400074),Ward N -  Ghatkopar,Ward S - Bhandup,Ward T -  Mulund"],
+         "context": [""]
+        },
+        {"tag": "A",
+         "patterns": ["Ward A","A"],
+         "responses": ["Following are the test center: 1. Seth A.J.B. Municipal E.N.T. Hospital,7,Maharshi Dhadhichi marg, Fort, 2. Colaba Dispensary, 3. Shahid Bhagat Singh Rd Dispensary, 4. HO Dispensary, 5. HO Ayurvedic Dispensary, 6. Maruti Lane Dispensary, 7. SS Rd Dispensary"],
+         "context": [""]
+        },
+        {"tag": "B",
+         "patterns": ["Ward B","B"],
+         "responses": ["Following are the test center: 1. SVP Rd. Dispensary, 2. Jail Road Unani Dispensary, 3. Jail Road Dispensary, 4. Kolsa Mohalla Unani Dispensary, 5. Walpakhadi Dispensary"],
+         "context": [""]
+        },
+        {"tag": "C",
+         "patterns": ["Ward C","C"],
+         "responses": ["Following are the test center: 1. Suryakant Wagal Mun. Mat. Home, Zaobawadi,Thakurdwar, Girgaon, 2. Ghoghari Mohalla Dispensary, 3. Panjarapole Dispensary, 4. Thakurdwar Dispensary, 5. Chandanwadi Dispensary, 6. Duncan Rd. Dispensary"],
+         "context": [""]
+        },
+        {"tag": "D",
+         "patterns": ["Ward D", "D"],
+         "responses": ["Following are the test center: 1. Municipal Eye Hospital, Maulana Shoukat Ali Road, opp. Durgadevigarden,Kamathipura, 2. R.S.Nimkar Marg Dispensary, 3. Bane Comp.Dispensary, 4. R.R Marg Dispensary, 5. Nana Chowk Dispensary, 6. Tardeo Flat Dispensary, 7. Banganga Dispensary"],
+         "context": [""]
+        },
+        {"tag": "E",
+         "patterns": ["Ward E", "E"],
+         "responses": ["Following are the test center: 1. B.Y.L.Nair Hospital and Topiwala National Med. College, Dr. Anandrao Nair Road, 2. Kasturba Hospital for infectious diseases, Sane Guruji Marg, opp. Arthur Road Jail, Chinchpokali, 3. D.P.Wadi Dispensary, 4. Gaurabai Dispensary (UPHC), 5. E.S.Patanwala Rd.Dispensary, 6. Huzeria Street Dispensary, 7. Tadwadi Dispensary (UPHC), 8. Hakim Ajmal Khan Unani/ Souter Street Dispensary, 9. Souter street allopathic, 10. R.J.Compound Dispensary, 11. Motishah Lane Dispensary, 12. Nawab Tank Dispensary, 13. N.M.Joshi Marg/ Lal Vitachi Chawl Dispensary,14.Siddharth Nagar Dispensary, 15. Tank Square Garden Dispensary"],
+         "context": [""]
+        },
+        {"tag": "F South ",
+         "patterns": ["Ward F South ", "F South "],
+         "responses": ["Following are the test center: 1. King Edward Memorial (KEM) Hospital and Seth Goverdhandas Sunderdas Med.College, Parel, Mumbai 400012, 2. Mun. Mat. Home, Naigaon, 3. A.D. Marg Dispensary, 4. Ambewadi Dispensary, 5. Gautam Nagar Dispensary, 6. F/South Parel Dispensary, 7. Naigaon MH Dispensary, 8. Abhyuday Nagar Dispensary (UPHC), 9. Sewree Cross Road Dispensary, 10. Kidwai Nagar Dispensary (UPHC), 11. Triveni Sadan Dispensary"],
+         "context": [""]
+        },
+        {"tag": "F North ",
+         "patterns": ["Ward F North ", "F North "],
+         "responses": ["Following are the test center: 1. Lokmanya Tilak Municipal general Hospital and Medical College (LTMG), Sion,Mumbai 400019, 2. Mun. Mat. Home, Rowli Camp, Mumbai – 22, 3. Wadala Dispensary (UPHC), 4. Antop Hill Dispensary (UPHC), 5. Raoli Camp Dispensary (UPHC), 6. L.B.S. Market Dispensary (UPHC), 7. Pratiksha Nagar Transit Camp Dispensary (UPHC), 8. Korba mithagar Dispensary (UPHC), 9. New Transit Camp Dispensary (UPHC)"],
+         "context": [""]
+        },
+        {"tag": "G South",
+         "patterns": ["Ward G South", "G South"],
+         "responses": ["Following are the test center: 1. Mohammad Haji Sabu Siddik Mun. Mat. Home,Swatryantveer Savarkar Road, Prabhadevi,, 2. Currey road dispensary, 3. Fergussan road Dispensary, 4. Prabhadevi MH Dispensary, 5. Prabhadevi Ayurvedic Dispensary, 6. Zandu Ayruvedic Dispensary, 7. BDD Chawl Dispensary, 8. Beggars Home Dispensary Mahalaxmi, 9. M H compound Dispensary, 10. Welfare center Dispensary (MHSchool cpd UPHC), 11. Sasmira marg Dispensary (Worli Labour Camp), 12. Senapati bapat marg Dispensary, 13. Jijamata nagar Dispensary, 14. Worli koliwada Dispensary, 15. NSCI DOME COVID CENTRE"],
+         "context": [""]
+        },
+        {"tag": "G North",
+         "patterns": ["Ward G North", "G North"],
+         "responses": ["Following are the test center: 1. Mun. Mat. Home, Lt. Dilip Gupte Marg, Mahim, Mumbai– 400 0016., 2. Matunga Labour Camp Dispensary, 3. Bai Gulbai Dispensary (UPHC), 4. Dharavi Main Road Dispensary, 5. Shahu Nagar Dispensary, 6. Welkarwadi Dispensary (UPHC), 7. Kumbharwada Dispensary, 8. Pilla Banglow Dispensary, 9. Transit camp. Dispensary (Shastri Nagar 2 UPHC), 10. Welfare Camp./Shree Cinema Dispensary (Mahim MHUPHC)"],
+         "context": [""]
+        },
+        {"tag": "H East",
+         "patterns": ["Ward H East", "H East"],
+         "responses": ["Following are the test center: 1. V.N. Desai Hospital , Santacruz (east), Mumbai 400051, 2. B. G. Kherwadi Mun. Mat. Home, Kherwadi, (East), Mumbai – 52.Bandra, 3. Prabhat Colony Dispensary, 4. Kherwadi Municipal MH Dispensary (UPHC), 5. Kalina Dispensary (UPHC), 6. Jawahar Nagar Dispensary (Golibar UPHC), 7. Bharat Nagar Dispensary (Bharat Nagar RCH2 UPHC), 8. S. V. Nagar Dispensary (UPHC), 9. Kolekalyan Dispensary (Shanti Nagar UPHC), 10. BKC COVID CENTRE"],
+         "context": [""]
+        },
+        {"tag": "H West",
+         "patterns": ["Ward H West", "H West"],
+         "responses": ["Following are the test center: 1. K.B.Bhabha Hospital, R.K.Patkar Marg, Bandra (w), Mumbai 400050., 2. Gurunanak Station Road Dispensary, 3. Khar Danda Dispensary, 4. Old Khar Dispensary, 5. Dr. Ambedkar Road Dispensary (Gurunanak UPHC), 6. Shastri Nagar Dispensary (UPHC)"],
+         "context": [""]
+        },
+        {"tag": "K East",
+         "patterns": ["Ward K East", "K East"],
+         "responses": ["Following are the test center: 1. Hindu Hridaysamrat Babasaheb Thakre Trauma Hosp. Jogeshwari(W), 2. Dr. V. N. Shirodkar Mun. Mat. Home, B-Paranjape Scheme, Hanuman Road, Vile-Parle (E), 3. Squatters Colony Mun. Mat. Home, Gumpha Road, Jogeshwari (East) Mumbai – 60, 4. Marol Mun. Mat. Home, Marol-Maroshi, Andheri (East),, 5. Gundavali Dispensary, 6. Harinagar Dispensary, 7. Sundernagar Dispensary, 8. Sambhaji Nagar Dispensary (UPHC), 9. Sambhaji Nagar Ayurvedic Disp.(PART of uphc), 10. Paranjpe Dispensary (VN Shirodkar MH UPHC), 11. Caves Road Dispensary (Squatters Colony MHUPHC), 12. Marol Dispensary, 13. Koldongri Dispensary, 14. Natwar Nagar Dispensary, 15. Mangala Mun.Disp.Dispensary Nursing Home"],
+         "context": [""]
+        },
+        {"tag": "K West",
+         "patterns": ["Ward K West", "K West"],
+         "responses": ["Following are the test center: 1. Dr. R.N.Cooper Hospital, Vileparle,, 2. Oshiwara Mun. Mat. Home, Near Ajit Glass Factory, Oshiwara, Jogeshwari (West), 3. Parla market Dispensary, 4. Millat nagar Dispensary, 5. NJ Wadia Dispensary, 6. Oshiwara Dispensary, 7. Versova Dispensary, 8. Juhu jalan Dispensary, 9. Banana leaf Dispensary, 10. Bhardawadi Deaddiction centre"],
+         "context": [""]
+        },
+        {"tag": "P South",
+         "patterns": ["Ward P South", "P South"],
+         "responses": ["Following are the test center : 1. Siddarth Nagar Hospital, Goregaon (w),, 2. Topiwala Mun. Mat. Home, Station Road, Goregaon (West), 3. Chincholi Sq. Dispensary, 4. Topiwala Dispensary, 5. Sunder Nagar Dispensary"],
+         "context": [""]
+        },
+        {"tag": "P North",
+         "patterns": ["Ward P North", "P North"],
+         "responses": ["Following are the test center: 1 M.W. Desai Hospital, Malad (east), Mumbai 400097, 2 S.K.Patil Mun.gen. Hospital, Malad (east), Mumbai 400097, 3 Choksy Mun. Mat. Home, Marvey Road, Malad (West), Mumbai – 64., 4 Malavani Mun. Mat. Home, Gate No.6, Malavani, Malad (West) Mumbai – 95, 5 Ridhi Garden Maternity Home, General Arunkumar Vaidya Marg, Dindoshi, Goregaon (E), 6 Manori Dispensary, 7 Valnai Dispensary, 8 Goshala Dispensary, 9 Choksy Dispensary, 10 Kurar Village Dispensary, 11 Nemani Dispensary, 12 School Rd. Dispensary, 13 Malvani 2Dispensary, 14 Pathanwadi Dispensary, 15 Ridhi Garden DispensaryUPHC, 16 Rathodi Village Dispensary"],
+         "context": [""]
+        },
+        {"tag": "R South",
+         "patterns": ["Ward R South", "R South"],
+         "responses": ["Following are the test center: 1. Bharatratna Dr.Babasaheb Ambedkar Hosp.Kandivali(W), 2. Kasturba Cross Road Hosp.Borivali, 3. Akurli Road Mun. Mat. Home, Kandivali (East), Mumbai– 101, 4. Akurli Dispensary, 5. Hanuman Nagar Dispensary, 6. Shailaja Girkar/ Dhanukarwadi Dispensary, 7. Charkop Sec.1 Dispensary, 8. Babrekar Nagar Dispensary, 9. New Centenary Dispensary, 10. Kandivali Hospital Esic"],
+         "context": [""]
+        },
+        {"tag": "R North",
+         "patterns": ["Ward R North", "R North"],
+         "responses": ["Following are the test center: 1. Harilal Bhagwati Hospital, Borivali, 2. Y.R.Tawde Dispensary, 3. L.T.Road Dispensary, 4. Anand Nagar Dispensary, 5. Shastri Nagar Dispensary, 6. DAHISAR JUMBO COVID FACILITY"],
+         "context": [""]
+        },
+        {"tag": "R Central",
+         "patterns": ["Ward R Central", "R Central"],
+         "responses": ["Following are the test center: 1. Charkop Mun. Mat. Home, Kandivali (West),, 2. Smt. Bhansali Kesarbai Chhabildas Lallubhai Mun. Mat.Home, Borivali (West),, 3. Mata Bal Rugnalay, Magathane, Borivali East, 4. Eksar Dispensary, 5. Gorai Village Dispensary, 6. K.K Municipal Dispensary, 7. Gorai MHADA Dispensary, 8. Charkop Sec-5 Dispensary (MHUPHC ), 9. MHB Colony Dispensary (UPHC), 10. Kajupada Dispensary (UPHC), 11. Magathane Dispensary (MCH UPHC)"],
+         "context": [""]
+        },
+        {"tag": "L",
+         "patterns": ["Ward L", "L"],
+         "responses": ["Following are the test center: 1. K.B.Bhabha Hospital, Kurla (west), Mumbai 400070, 2. Maa Saheb Minatai Thakare Mun. Mat. Home, V. N.Purav Marg, Sion – Trombay Road, Chunabhatti Mumbai– 22, 3. Dr. Anandibai Joshi Maternity Home, Bail Bazar, 4. Safed Pool Dispensary, 5. Tilak Nagar Dispensary, 6. Christian Village Dispensary, 7. Chunabhatti Dispensary (Maasaheb meenaMHUPHC), 8. Bail Bazar Dispensary (Anandibai joshi MHUPHC), 9. Chandivali Dispensary (Sangharsh nagar UPHC), 10. Mohili Village Dispensary (UPHC), 11. Asalfa Village Dispensary(UPHC), 12. Nehru Nagar Dispensary(UPHC), 13. Himalaya Dispensary(UPHC), 14. Kajupada Dispensary(UPHC), 15. Nahar Amrut Shakti Dispensary(UPHC), 16. Qureshi Nagar Dispensary(Kamgar nagar UPHC), 17. Buddha colony Dispensary(UPHC), 18. Bibi Fatima Dispensary(UPHC)"],
+         "context": [""]
+        },
+        {"tag": "M East",
+         "patterns": ["Ward M East", "M East"],
+         "responses": ["Following are the test center: 1. Govandi centenary Hospital , Govandi(E), Mumbai 400074, 2. Shajaji Nagar Mun. Mat. Home, Near Trombay Police Station, Cheeta Camp Mumbai – 88, 3. Deonar Mun. Mat. Home, Municipal Colony, Gowandi (W), Mumbai – 74., 4. Deonar Colony Dispensary(MHUPHC), 5. Gavanpada Dispensary, 6. Ram Manohar Lohiya Dispensary, 7. Trombay Dispensary(Shahaji nagar MHUPHC), 8. Anik Nagar Dispensary(ayodhya2 UPHC), 9. Ayodhya Nagar Dispensary(UPHC), 10. Annabhau Sathe Nagar Dispensary(UPHC), 11. Kamala Raman Nagar Dispensary(UPHC), 12. New Bainganwadi Dispensary(UPHC), 13. Maharashtra Nagar Dispensary(UPHC), 14. L.U.Gadkari (Vashi Naka) Dispensary(UPHC)"],
+         "context": [""]
+        },
+        {"tag": "M West",
+         "patterns": ["Ward M West", "M West"],
+         "responses": ["Following are the test center: 1. Maa Hospital, Chembur, Mumbai, Mumbai 400071, 2. Matoshri Ramabai Ambedkar Maternity Home Chembur Naka, 3. Mahul Dispensary, 4. Chembur Naka Dispensary (MHUPHC), 5. Chembur Colony Dispensary (UPHC), 6. Labour.camp Dispensary (Pestum sagarUPHC), 7. Lal Dongari Dispensary (UPHC), 8. Mahul SRA Village (UPHC)"],
+         "context": [""]
+        },
+        {"tag": "N Ward",
+         "patterns": ["Ward N Ward", "N WardE"],
+         "responses": ["Following are the test center: 1. Seth V.C. Gandhi &amp;M.A.Vora Rajawadi gen Hospital , Ghatkopar (E), Mumbai 77, 2. Sant Muktabai Barve Hospital, Ghatkopar, Mumbai 400077, 3. Matoshree Ramabai Thakrey Mun. Mat. Home, Ganesh Maidan, Poddar Mill Compound, Ghatkopar (West), Mumbai - 86, 4. Kirol MUN Dispensary, 5. Ramabai Dispensary (karmveer gaikwad disp)(UPHC), 6. Park Site Dispensary (UPHC), 7. Pant Nagar Dispensary (UPHC), 8. Sarvodaya Dispensary (UPHC), 9. Parshi Wadi Dispensary, 10. Nath Pai Dispensary (Kamraj nagarUPHC), 11. Sainath Dispensary (MHUPHC"],
+         "context": [""]
+        },
+        {"tag": "S",
+         "patterns": ["Ward S", "S"],
+         "responses": ["Following are the test center: 1. Krantiveer Mahatma Jyotiba Phule Mun. Gen. Hosp Kannamwar Nagar,Vikhroli(e),Mumbai 400083, 2. Dr. Babasaheb Ambedkar Mun. Mat. Home, Ground No.7, Tagore Nagar, Vikhroli (East) Mumbai – 83, 3. Savitribai Jyotiba Bhandup Mun. Mat. Home, Motichand Premises,Savitribai Phule Marg, LBS Road, Bhandup (W), Mumbai, 4. M.V.R. Dispensary (ishwar nagar UPHC), 5. Nahur Dispensary (lbs marg UPHC), 6. Shivaji Talav Dispensary (UPHC), 7. Tembhi Pada Dispensary (UPHC), 8. Tulshet Pada Dispensary (UPHC), 9. Kanjur village Dispensary (UPHC), 10. Tirandaz Dispensary (HiranandaniUPHC), 11. Tagor Nagar Dispensary (Dr. BA MHUPHC)"],
+         "context": [""]
+        },
+        {"tag": "T",
+         "patterns": ["Ward T", "T"],
+         "responses": ["Following are the test center: 1. Smt. Munsadevi T. Agarwal Mun. Gen. Hosp, Mulund,(w) Mumbai,80, 2. Swatantryaveer Vinayak Damodar Savarkar mun. Gen. Hosp., Mulund (e), Mumbai 400081, 3. S. J. D. C. Mun. Mat. Home, Paanch Rasta, Mulund (W), Mumbai – 80., 4. P.J.K. Dispensary (MH UPHC), 5. D.D.U. Dispensary (UPHC), 6. Mulund Colony Dispensary (UPHC), 7. MULUND COVID JUMBO FACILITY"],
+         "context": [""]
+        },
+        {"tag": "Containment",
+         "patterns": ["Containment Zone near me?", "Containment Zone for covid patient", "Containment Zone"],
+         "responses": ["Following is the link for Containment Zone as per Ward in Mumbai : https://stopcoronavirus.mcgm.gov.in/assets/docs/Containment-Zones.pdf"],
+         "context": [""]
+        }
+        
+
+   ]
+}
