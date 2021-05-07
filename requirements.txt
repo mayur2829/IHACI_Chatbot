@@ -39,11 +39,8 @@ PyYAML==3.13
 regex==2020.7.14
 rivescript==1.15.0
 scikit-learn==0.23.2
-scipy==1.5.2
-six==1.15.0
 sklearn==0.0
 SpeechRecognition==3.8.1
-SQLAlchemy==1.2.19
 threadpoolctl==2.1.0
 tornado==6.0.4
 tqdm==4.48.0
