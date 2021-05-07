@@ -26,23 +26,7 @@ classes = pickle.load(open("classes.pkl", "rb"))
 
 app = Flask(__name__)
 run_with_ngrok(app)
-ENV = 'prod'
-if ENV == 'dev':
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost/user-responses'
-else:
-    app.config[
-        'SQLALCHEMY_DATABASE_URI'] = 'postgres://negvtolbbjelqr:e4b4d8c810c381dc09621a6ee1c595a543998a133d8b98e677179091717b466f@ec2-54-243-67-199.compute-1.amazonaws.com:5432/d7hpd1p5ohe4i9'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app) 
 
-
-class Users(db.Model):
-    __tablename__ = 'Users'
-    id = db.Column(db.Integer, primary_key=True)
-    getResponse = db.Column(db.String(200), unique=True)
-
-    def __init__(self, getResponse):
-        self.response = getResponse
 
 
 
