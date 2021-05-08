@@ -14,3 +14,4 @@ scikit-learn>=0.24.1
 tensorflow-cpu
 tensorflow_hub
 flask_sqlalchemy
+json
