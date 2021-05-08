@@ -17,4 +17,3 @@ flask_sqlalchemy
 requests
 certifi
 chardet
-distribute
