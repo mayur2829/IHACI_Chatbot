@@ -36,7 +36,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/get", methods=["POST"])
+@app.route("/get", methods=["GET","POST"])
 def chatbot_response():
     msg = request.form["msg"]
     #checks is a user has given a name, in order to give a personalized feedback
