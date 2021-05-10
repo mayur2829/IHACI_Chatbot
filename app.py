@@ -16,7 +16,7 @@ import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
-from flask_sqlalchemy import SQLAlchemy
+
 
 # chat initialization
 model = load_model("chatbot_model.h5")
