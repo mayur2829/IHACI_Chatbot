@@ -3,7 +3,8 @@
 
 <head>
     <title>IHACI Covid Info ChatBot</title>
-   <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC"> 
+   <!--<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">-->
+   <link rel = "icon" type = "image/png" href = "/static/IHACI_1.jpg"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style>
         * {
@@ -132,6 +133,15 @@ button, input, optgroup, select, textarea {
         right: 0;
         width: 300px;
         }
+        .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        #background-color: red;
+        color: black;
+        text-align: center;
+        }
         </style>
 </head>
 <body>
@@ -221,7 +231,10 @@ function talkback(data) {
                 }
                
 </script>
-  
+ <div class="footer">
+            <p>© 2021 Developed by Mayur Pawar.</p>
+        </div>
+         
 </body>
 
 </html>
