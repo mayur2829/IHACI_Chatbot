@@ -14,6 +14,7 @@ from flask import Flask, render_template, request
 from flask_ngrok import run_with_ngrok
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
