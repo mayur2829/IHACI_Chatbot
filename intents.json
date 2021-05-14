@@ -45,7 +45,7 @@
          "context": [""]
         },
     	{"tag": "symptoms",
-    	 "patterns": ["What are the symptoms of COVID-19?","Symptoms of COVID-19","symptoms","covid-19 symptons", "coronavirus symptoms","what is covid"],
+    	 "patterns": ["What are the symptoms of COVID-19?","Symptoms of COVID-19","symptoms","covid-19 symptons", "coronavirus symptoms"],
     	 "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea.These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
 	     "context": [""]
     	},
@@ -95,7 +95,7 @@
          "context": [""]
         },
         {"tag": "antibiotics",
-         "patterns": ["Are antibiotics effective in preventing or treating the COVID-19"],
+         "patterns": ["Are antibiotics effective in preventing or treating the COVID-19","Any antibiotics for COVID-19?"],
          "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work"],
          "context": [""]
         },
@@ -105,7 +105,7 @@
          "context": [""]
         },
         {"tag": "cure",
-         "patterns": ["Are there any medicines or therapies that can cure COVID-19"],
+         "patterns": ["Are there any medicines or therapies that can cure COVID-19","How to cure COVID-19?"],
          "responses": ["While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available."],
          "context": [""]
         },
@@ -120,12 +120,12 @@
          "context": [""]
         },
         {"tag": "put on",
-         "patterns": ["how to put on, take off and dispose a mask"],
+         "patterns": ["how to put on, take off and dispose a mask","explain mask related guidelines","mask guidelines"],
          "responses": ["Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough.Before touching the mask, clean hands with an alcohol-based hand rub or soap and water    Take the mask and inspect it for tears or holes.  Orient which side is the top side (where the metal strip is).  Ensure the proper side of the mask faces outwards (the coloured side).   Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose.   Pull down the mask’s bottom so it covers your mouth and your chin.   After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask.  Discard the mask in a closed bin immediately after use.   Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water."],
          "context": [""]
         },
         {"tag": "incubation",
-         "patterns": ["How long is the incubation period for COVID-19?","Within how must time virus infect"],
+         "patterns": ["How long is the incubation period for COVID-19?","Within how must time virus infect","incubation period for COVID-19?"],
          "responses": ["The time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days."],
          "context": [""]
         },
@@ -190,7 +190,7 @@
          "context": [""]
         },
         {"tag": "protect",
-         "patterns": ["What can I do to protect myself","how to protect","how to protect myself from corona"],
+         "patterns": ["What can I do to protect myself","how to protect","protect","how to protect myself from corona"],
          "responses": ["Protection measures for everyone Stay aware of the latest information on the COVID-19 outbreak,available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. "],
          "context": [""]
         },
@@ -210,7 +210,7 @@
          "context": [""]
         },
         {"tag": "anti",
-         "patterns": ["Are antibiotics effective in preventing treating the COVID-19?","treatment of covid by antibiotics"],
+         "patterns": ["Are antibiotics effective in preventing treating the COVID-19?","Is there antibiotics for treatment of COVID-19?","treatment of covid by antibiotics"],
          "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "],
          "context": [""]
         },
@@ -230,7 +230,7 @@
          "context": [""]
         },
         {"tag": "whenmask",
-         "patterns": ["who should use mask","who must wear mask","is it necessary to wear mask"],
+         "patterns": ["who should use mask","who must wear mask","is it necessary to everyone wear mask"],
          "responses": ["A mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough."],
          "context": [""]
         },
@@ -295,7 +295,7 @@
          "context": [""]
         },
         {"tag": "food",
-         "patterns": ["can this virus spread from food or food from restaurant"],
+         "patterns": ["can this virus spread from food or food from restaurant","can this virus spread from  vegetables or fruits"],
          "responses": ["Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food – additional investigation is needed."],
          "context": [""]
         },
@@ -315,12 +315,12 @@
          "context": [""]
         },
         {"tag": "caringsomeone",
-         "patterns": ["when caring for someone who is sick"],
+         "patterns": ["when caring for someone who is sick","what are precaution should we take while caring for someone who is sick?","caring for someone who is sick" ],
          "responses": ["1.Limit contactCOVID-19 spreads between people who are in close contact (within about 6 feet) through respiratory droplets, created when someone talks, coughs or sneezes.2. Eat in separate rooms or areas3.Avoid sharing personal items like dishes, cups/glasses, towels, bedding, or electronics (like a cell phone) with the person who is sick.4.When to wear a cloth face cover or gloves5.Clean your hands often6.Clean and then disinfect around the house"],
          "context": [""]
         },
         {"tag": "childermask",
-         "patterns": ["should children wear mask?","childern mask"],
+         "patterns": ["should children wear mask?","childern mask","is it necessary for children to wear mask?"],
          "responses": ["CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. Cloth face coverings should NOT be put on babies or children younger than 2 because of the danger of suffocation. Children younger than 2 years of age are listed as an exception as well as anyone who has trouble breathing or is unconscious, incapacitated, or otherwise unable to remove the face covering without assistance."],
          "context": [""]
         },
@@ -380,12 +380,12 @@
          "context": [""]
         },
         {"tag": "spot",
-         "patterns": ["Can i get spot vaccination"],
+         "patterns": ["How can i get spot vaccination"],
          "responses": ["Those who cannot get themselves registered online can contact their local Government health workers, who will help the beneficiaries to the Government CVC for on the spot registration, appointment, verification and vaccination on the same day. Please ask your nearest Governmen health care worker to guide you about the nearest Government CVC where COVID vaccination will be available and the days of the week when this will be available. You need to carry your mobile phone and a photo identification document to get yourself vaccinated. The workers in the Government CVC will help you to register on the spot, get appointment and get vaccinated on the same day."],
          "context": [""]
         },
         {"tag": "document",
-         "patterns": ["What documents are required for registration","Are documnet require for registration"],
+         "patterns": ["What documents are required for registration","Are documnet require for registration","Important Documents for registration"],
          "responses": ["Any of the below mentioned ID with Photo may be produced at the time of registration:Aadhaar Card, Driving License,Health Insurance Smart Card issued under the scheme of Ministry of Labour,Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) Job Card, Official identity cards issued to MPs/MLAs/MLCs,PAN Card, Passbooks issued by Bank/Post Office,Passport, Pension Document,Service Identity Card issued to employees by Central/ State Govt./ Public Limited Companies,Voter ID,People with comorbidities will have to carry the certificate of comorbidities, in the format shared here by a registered medical practitioner."],
          "context": [""]
         },
@@ -395,7 +395,7 @@
          "context": [""]
         },
         {"tag": "duedate",
-         "patterns": ["Is there duedate for vaccine"],
+         "patterns": ["Is there duedate for vaccine","duedate for vaccine?"],
          "responses": ["Following online registration, beneficiary will receive SMS on their registered mobile number about the due date, place and time of vaccination."],
          "context": [""]
         },
@@ -405,7 +405,7 @@
          "context": [""]
         },
         {"tag": "eua",
-         "patterns": ["Which COVID-19 vaccines are licensed in India","Are vaccine licenced?"],
+         "patterns": ["What is EAU","EAU"],
          "responses": ["Emergency Use Authorization (EUA) is a regulatory mechanism to allow the use of vaccines and medicines to prevent and/or reduce the impact of life-threatening diseases or conditions as caused by COVID-19. However, before grant of the EUA, rigorous assessments of laboratory and clinical trial data, including data on quality, safety, production of protective antibodies and efficacy is conducted. Safety is particularly critical aspect of this scrutiny and a risk-versus- benefit evaluation is done in the context of a public health emergency. Full licensure is obtained when the manufacturer submits the complete data. EUA by Indian regulators is aligned with global guidelines."],
          "context": [""]
         },
@@ -460,7 +460,7 @@
          "context": [""]
         },
         {"tag": "eligible",
-         "patterns": ["How will I know if I am eligible for vaccination?","eligible for vaccine"],
+         "patterns": ["How will I know if I am eligible for vaccination?","eligible for vaccine","eligiblity criteria for vaccine"],
          "responses": ["In the initial phase, COVID-19 vaccine will be provided to the priority group - Health Care and Front-line workers. The second phase vaccinations, starting March 1, 2021 will allow for all Indians above the age of 60 and Indians between the age of 45 and 59 with comorbidities to be vaccinationated. Registrations will be allowed on the Co-WIN 2.0 Portal, Aarogya Setu app etc. The comorbidities that make a person eligible for vaccinations are listed below:1)Heart Failure with hospital admission in past one year.2)Post Cardiac Transplant/Left Ventricular Assist Device (LVAD).3)Significant Left ventricular systolic dysfunction (LVEF <40%).4)Moderate or Severe Valvular Heart Disease .5)Congenital heart disease with severe PAH or Idiopathic PAH.6)Coronary Artery Disease with past CABG/PTCA/MI AND Hypertension/Diabetes on treatment .7)Angina AND Hypertension/Diabetes on treatment.8)CT/MRI documented stroke AND Hypertension/Diabetes on treatment.9)Pulmonary Artery Hypertension AND Hypertension/Diabetes on treatment.10)Diabetes (> 10 years OR with complications) AND Hypertension on treatment.11)Kidney/ Liver/ Hematopoietic stem cell transplant: Recipient/On wait-list.12)End Stage Kidney Disease on haemodialysis/ CAPD.13)Current prolonged use of oral corticosteroids/ immunosuppressant medications .14)Decompensated cirrhosis.15)Severe respiratory disease with hospitalizations in last two years/FEV1 <50%.16)Lymphoma/ Leukaemia/ Myeloma.17)Diagnosis of any solid cancer on or after 1st July 2020 OR currently on any cancer therapy.18)Sickle Cell Disease/ Bone marrow failure/ Aplastic Anemia/ Thalassemia Major.19)Primary Immunodeficiency Diseases/ HIV infection.20)Persons with disabilities due to Intellectual disabilities/ Muscular Dystrophy/ Acid attack with involvement of respiratory system/ Persons with disabilities having high support needs/ Multiple disabilities including deaf-blindness"],
          "context": [""]
         },
@@ -474,8 +474,8 @@
          "responses": ["There is no head-to-head comparison done between the two vaccines being used in India so one cannot choose one over the other. Both would work fine in preventing the infection as well as prevent a person from going into severe state of the disease. As a long-term effect, it would be preventing death for elderly people or those who have comorbidities."],
          "context": [""]
         },
-        {"tag": "protect",
-         "patterns": ["How long will vaccine proteect me?"],
+        {"tag": "pro",
+         "patterns": ["How long will vaccine proteect me?","How long  vaccine will protect me?"],
          "responses": ["Longevity of the immune response in vaccinated individuals is yet to be determined. Hence, continuing the use of masks, handwashing, physical distancing and other COVID-19 appropriate behaviours is strongly recommended."],
          "context": [""]  
         },
@@ -491,191 +491,191 @@
         },
         {"tag": "India",
          "patterns": ["Current covid count in India","Current cases in India","India","Live covid patient in India","Death in India","Cured Cases in India"],
-         "responses": ["Total 144635859746943812079,Active 2882204,Cured 14556209,Death 197894,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Total 186095927501765178702,Active 3704893,Cured 20079599,Death 262317,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "maharashtra",
          "patterns": ["Current covid count in maharashtra","Current cases in maharashtra","maharashtra","Live covid patient in maharashtra","Death in maharashtra","Cured Cases in maharashtra"],
-         "responses": ["Total 649563306117459970,Active 649563,Cured 3061174,Death 59970,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Total 535704465473178857,Active 535704,Cured 4654731,Death 78857,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Ahmednagar",
          "patterns": ["Current covid count in Ahmednagar","Current cases in Ahmednagar","Ahmednagar","Live covid patient in Ahmednagar","Death in Ahmednagar","Cured Cases in Ahmednagar"],
-         "responses": ["Confirmed 130336,Active 20577,Recovered 108291,Deceased 1467, For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 214957,Active 28862,Recovered 183704,Deceased 2390, For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Akola",
          "patterns": ["Current covid count in Akola","Current cases in Akola","Akola","Live covid patient in Akola","Death in Akola","Cured Cases in Akola"],
-         "responses": ["Confirmed 34149,Active 3386,Recovered 30222,Deceased 537,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 47733,Active 5367,Recovered 41614,Deceased 748,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Amravati",
          "patterns": ["Current covid count in Amravati","Current cases in Amravati","Amravati","Live covid patient in Amravati","Death in Amravati","Cured Cases in Amravati"],
-         "responses": ["Confirmed 55535,Active 5236,Recovered 49563,Deceased 734,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 75626,Active 10937,Recovered 63562,Deceased 1125,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Aurangabad",
          "patterns": ["Current covid count in Aurangabad","Current cases in Aurangabad","Aurangabad","Live covid patient in Aurangabad","Death in Aurangabad","Cured Cases in Aurangabad"],
-         "responses": ["Confirmed 107042,Active 13499,Recovered 92017,Deceased 1512,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 137487,Active 8839,Recovered 126438,Deceased 2196,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Beed",
          "patterns": ["Current covid count in Beed","Current cases in Beed","Beed","Live covid patient in Beed","Death in Beed","Cured Cases in Beed"],
-         "responses": ["Confirmed 38952,Active 9047,Recovered 29165,Deceased 731,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 72393,Active 18499,Recovered 52585,Deceased 1300,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Bhandara",
          "patterns": ["Current covid count in Bhandara","Current cases in Bhandara","Bhandara","Live covid patient in Bhandara","Death in Bhandara","Cured Cases in Bhandara"],
-         "responses": ["Confirmed 36566,Active 14182,Recovered 22047,Deceased 334,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 57203,Active 4934,Recovered 51672,Deceased 590,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Buldhana",
          "patterns": ["Current covid count in Buldhana","Current cases in Buldhana","Buldhana","Live covid patient in Buldhana","Death in Buldhana","Cured Cases in Buldhana"],
-         "responses": ["Confirmed 37227,Active 1383,Recovered 35498,Deceased 341,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 66160,Active 6787,Recovered 58941,Deceased 427,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Chandrapur",
          "patterns": ["Current covid count in Chandrapur","Current cases in Chandrapur","Chandrapur","Live covid patient in Chandrapur","Death in Chandrapur","Cured Cases in Chandrapur"],
-         "responses": ["Confirmed 40841,Active 11026,Recovered 29306,Deceased 507,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 78567,Active 16367,Recovered 61248,Deceased 950,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Dhule",
          "patterns": ["Current covid count in Dhule","Current cases in Dhule","Dhule","Live covid patient in Dhule","Death in Dhule","Cured Cases in Dhule"],
-         "responses": ["Confirmed 33690,Active 7744,Recovered 25537,Deceased 405,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 41533,Active 3348,Recovered 37679,Deceased 494,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Gadchiroli",
          "patterns": ["Current covid count in Gadchiroli","Current cases in Gadchiroli","Gadchiroli","Live covid patient in Gadchiroli","Death in Gadchiroli","Cured Cases in Gadchiroli"],
-         "responses": ["Confirmed 13244,Active 2300,Recovered 10815,Deceased 121,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 25339,Active 3305,Recovered 21759,Deceased 266,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Gondia",
          "patterns": ["Current covid count in Gondia","Current cases in Gondia","Gondia","Live covid patient in Gondia","Death in Gondia","Cured Cases in Gondia"],
-         "responses": ["Confirmed 24640,Active 8038,Recovered 16371,Deceased 225,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 38313,Active 4404,Recovered 33507,Deceased 396,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Hingoli",
          "patterns": ["Current covid count in Hingoli","Current cases in Hingoli","Hingoli","Live covid patient in Hingoli","Death in Hingoli","Cured Cases in Hingoli"],
-         "responses": ["Confirmed 10459,Active 1804,Recovered 8528,Deceased 127,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 16048,Active 1679,Recovered 14128,Deceased 241,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Jalgaon",
          "patterns": ["Current covid count in Jalgaon","Current cases in Jalgaon","Jalgaon","Live covid patient in Jalgaon","Death in Jalgaon","Cured Cases in Jalgaon"],
-         "responses": ["Confirmed 104906,Active 11797,Recovered 91364,Deceased 1718,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 130080,Active 10911,Recovered 116997,Deceased 2140,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Jalna",
          "patterns": ["Current covid count in Jalna","Current cases in Jalna","Jalna","Live covid patient in Jalna","Death in Jalna","Cured Cases in Jalna"],
-         "responses": ["Confirmed 34060,Active 9253,Recovered 24264,Deceased 542,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 52549,Active 6881,Recovered 44851,Deceased 816,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Kolhapur",
          "patterns": ["Current covid count in Kolhapur","Current cases in Kolhapur","Kolhapur","Live covid patient in Kolhapur","Death in Kolhapur","Cured Cases in Kolhapur"],
-         "responses": ["Confirmed 55747,Active 3465,Recovered 50558,Deceased 1721,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 85979,Active 19912,Recovered 64017,Deceased 2047,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Latur",
          "patterns": ["Current covid count in Latur","Current cases in Latur","Latur","Live covid patient in Latur","Death in Latur","Cured Cases in Latur"],
-      "responses": ["Confirmed 54011,Active 15348,Recovered 37804,Deceased 855,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+      "responses": ["Confirmed 83548,Active 9712,Recovered 72402,Deceased 1430,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Mumbai",
          "patterns": ["Current covid count in Mumbai","Current cases in Mumbai","Mumbai","Live covid patient in Mumbai","Death in Mumbai","Cured Cases in Mumbai"],
-         "responses": ["Confirmed 571018,Active 86433,Recovered 471080,Deceased 12301,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 683185,Active 36338,Recovered 630900,Deceased 14040,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Nagpur",
          "patterns": ["Current covid count in Nagpur","Current cases in Nagpur","Nagpur","Live covid patient in Nagpur","Death in Nagpur","Cured Cases in Nagpur"],
-      "responses": ["Confirmed 324714,Active 72860,Recovered 247336,Deceased 4472,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+      "responses": ["Confirmed 474038,Active 45996,Recovered 422164,Deceased 5832,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Nanded",
          "patterns": ["Current covid count in Nanded","Current cases in Nanded","Nanded","Live covid patient in Nanded","Death in Nanded","Cured Cases in Nanded"],
-         "responses": ["Confirmed 67904,Active 12906,Recovered 53805,Deceased 1186,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 87302,Active 4868,Recovered 80506,Deceased 1920,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Nandurbar",
          "patterns": ["Current covid count in Nandurbar","Current cases in Nandurbar","Nandurbar","Live covid patient in Nandurbar","Death in Nandurbar","Cured Cases in Nandurbar"],
-         "responses": ["Confirmed 27785,Active 7314,Recovered 20089,Deceased 381,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 37492,Active 2420,Recovered 34366,Deceased 704,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Nashik",
          "patterns": ["Current covid count in Nashik","Current cases in Nashik","Nashik","Live covid patient in Nashik","Death in Nashik","Cured Cases in Nashik"],
-         "responses": ["Confirmed 244956,Active 40449,Recovered 201932,Deceased 2574,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 360573,Active 16617,Recovered 340009,Deceased 3946,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Osmanabad",
          "patterns": ["Current covid count in Osmanabad","Current cases in Osmanabad","Osmanabad","Live covid patient in Osmanabad","Death in Osmanabad","Cured Cases in Osmanabad"],
-         "responses": ["Confirmed 29602,Active 5400,Recovered 23494,Deceased 691,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 47987,Active 6553,Recovered 40240,Deceased 1145,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Palghar",
          "patterns": ["Current covid count in Palghar","Current cases in Palghar","Palghar","Live covid patient in Palghar","Death in Palghar","Cured Cases in Palghar"],
-         "responses": ["Confirmed 69590,Active 11119,Recovered 57329,Deceased 1132,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 105515,Active 14754,Recovered 89455,Deceased 1294,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Parbhani",
          "patterns": ["Current covid count in Parbhani","Current cases in Parbhani","Parbhani","Live covid patient in Parbhani","Death in Parbhani","Cured Cases in Parbhani"],
-         "responses": ["Confirmed 25040,Active 11125,Recovered 13456,Deceased 448,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 45579,Active 6513,Recovered 38309,Deceased 746,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Pune",
          "patterns": ["Current covid count in Pune","Current cases in Pune","Pune","Live covid patient in Pune","Death in Pune","Cured Cases in Pune"],
-         "responses": ["Confirmed 713144,Active 120452,Recovered 583865,Deceased 8772,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 956938,Active 101181,Recovered 845467,Deceased 10232,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Raigad",
          "patterns": ["Current covid count in Raigad","Current cases in Raigad","Raigad","Live covid patient in Raigad","Death in Raigad","Cured Cases in Raigad"],
-         "responses": ["Confirmed 100765,Active 11440,Recovered 87569,Deceased 1754,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 136389,Active 8784,Recovered 125219,Deceased 2384,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Ratnagiri",
          "patterns": ["Current covid count in Ratnagiri","Current cases in Ratnagiri","Ratnagiri","Live covid patient in Ratnagiri","Death in Ratnagiri","Cured Cases in Ratnagiri"],
-         "responses": ["Confirmed 15835,Active 3019,Recovered 12370,Deceased 444,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 33226,Active 10619,Recovered 21962,Deceased 643,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Sangli",
          "patterns": ["Current covid count in Sangli","Current cases in Sangli","Sangli","Live covid patient in Sangli","Death in Sangli","Cured Cases in Sangli"],
-         "responses": ["Confirmed 63344,Active 6604,Recovered 54829,Deceased 1909,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 101259,Active 19971,Recovered 78957,Deceased 2329,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
          },
         {"tag": "Satara",
          "patterns": ["Current covid count in Satara","Current cases in Satara","Pune","Live covid patient in Satara","Death in Satara","Cured Cases in Satara"],
-         "responses": ["Confirmed 80252,Active 11625,Recovered 66617,Deceased 2001,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 130606,Active 23647,Recovered 104402,Deceased 2545,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Sindhudurg",
          "patterns": ["Current covid count in Sindhudurg","Current cases in Sindhudurg","Sindhudurg","Live covid patient in Sindhudurg","Death in Sindhudurg","Cured Cases in Sindhudurg"],
-         "responses": ["Confirmed 9722,Active 2120,Recovered 7384,Deceased 218,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 18866,Active 4529,Recovered 13883,Deceased 450,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Solapur",
          "patterns": ["Current covid count in Solapur","Current cases in Solapur","Solapur","Live covid patient in Solapur","Death in Solapur","Cured Cases in Solapur"],
-         "responses": ["Confirmed 84263,Active 11656,Recovered 70490,Deceased 2063,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 133443,Active 21233,Recovered 109050,Deceased 3100,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Thane",
          "patterns": ["Current covid count in Thane","Current cases in Thane","Thane","Live covid patient in Thane","Death in Thane","Cured Cases in Thane"],
-         "responses": ["Confirmed 445013,Active 82047,Recovered 356548,Deceased 6387,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 544493,Active 30922,Recovered 505965,Deceased 7575,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Wardha",
          "patterns": ["Current covid count in Wardha","Current cases in Wardha","Wardha","Live covid patient in Wardha","Death in Wardha","Cured Cases in Wardha"],
-         "responses": ["Confirmed 30228,Active 4518,Recovered 25219,Deceased 415,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 52396,Active 7377,Recovered 44228,Deceased 708,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Washim",
          "patterns": ["Current covid count in Washim","Current cases in Washim","Washim","Live covid patient in Washim","Death in Washim","Cured Cases in Washim"],
-         "responses": ["Confirmed 21942,Active 3692,Recovered 18030,Deceased 217,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 33260,Active 3913,Recovered 28924,Deceased 420,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "Yavatmal",
          "patterns": ["Current covid count in Yavatmal","Current cases in Yavatmal","Yavatmal","Live covid patient in Yavatmal","Death in Yavatmal","Cured Cases in Yavatmal"],
-         "responses": ["Confirmed 34039,Active 5036,Recovered 28382,Deceased 617,           For up-to-date count check on the following link: https://www.covid19india.org/"],
+         "responses": ["Confirmed 63084,Active 6289,Recovered 55621,Deceased 1170,           For up-to-date count check on the following link: https://www.covid19india.org/"],
          "context": [""]
         },
         {"tag": "hospital",
-         "patterns": ["Covid Hospita near me?","Covid Hospital","Where can i get hospitalized for covid virus","Hospital for CoVID-19"],
+         "patterns": ["Covid Hospital near me?","Covid Hospital","Where can i get hospitalized for covid virus","Hospital for CoVID-19"],
          "responses": ["Please enter your pincode for nearby CoVID-19 Hospital:"],
          "context": [""]
         },
